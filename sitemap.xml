@@ -1,105 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-<url>
-  <loc>https://oregonboatingfoundation.org/</loc>
-  <lastmod>2018-08-21T22:42:19+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://oregonboatingfoundation.org/guided-kayak-tours.html</loc>
-  <lastmod>2018-08-21T22:42:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://oregonboatingfoundation.org/youth-camps.html</loc>
-  <lastmod>2018-08-21T22:42:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://oregonboatingfoundation.org/kayak-classes.html</loc>
-  <lastmod>2018-08-21T22:42:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://oregonboatingfoundation.org/free-family-boating.html</loc>
-  <lastmod>2018-08-21T22:42:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://oregonboatingfoundation.org/history.html</loc>
-  <lastmod>2018-08-21T22:42:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://oregonboatingfoundation.org/donate.html</loc>
-  <lastmod>2018-08-21T22:42:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://oregonboatingfoundation.org/volunteer.html</loc>
-  <lastmod>2018-08-21T22:42:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://oregonboatingfoundation.org/contact.html</loc>
-  <lastmod>2018-08-21T22:42:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://oregonboatingfoundation.org/refunds.html</loc>
-  <lastmod>2018-08-21T22:42:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://oregonboatingfoundation.org/privacy.html</loc>
-  <lastmod>2018-08-21T22:42:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://oregonboatingfoundation.org/terms.html</loc>
-  <lastmod>2018-08-21T22:42:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://oregonboatingfoundation.org/youth-camps/sailing-camp.html</loc>
-  <lastmod>2018-08-21T22:42:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://oregonboatingfoundation.org/youth-camps/beginner-kayak-camp.html</loc>
-  <lastmod>2018-08-21T22:42:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://oregonboatingfoundation.org/youth-camps/intermediate-kayak-camp.html</loc>
-  <lastmod>2018-08-21T22:42:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://oregonboatingfoundation.org/youth-camps/advanced-kayak-camp.html</loc>
-  <lastmod>2018-08-21T22:42:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://oregonboatingfoundation.org/kayak-classes/introduction-to-kayaking.html</loc>
-  <lastmod>2018-08-21T22:42:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://oregonboatingfoundation.org/kayak-classes/kayak-touring.html</loc>
-  <lastmod>2018-08-21T22:42:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://oregonboatingfoundation.org/kayak-classes/coastal-kayaking.html</loc>
-  <lastmod>2018-08-21T22:42:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://oregonboatingfoundation.org/contact.html</loc>
+        <lastmod>2018-02-25T06:22:37.000Z</lastmod>
+    </url>
+    <url>
+        <loc>https://oregonboatingfoundation.org/donate.html</loc>
+        <lastmod>2018-02-25T06:22:46.000Z</lastmod>
+    </url>
+    <url>
+        <loc>https://oregonboatingfoundation.org/employment.html</loc>
+        <lastmod>2018-12-20T17:43:56.931Z</lastmod>
+    </url>
+    <url>
+        <loc>https://oregonboatingfoundation.org/free-family-boating.html</loc>
+        <lastmod>2018-02-26T02:44:46.000Z</lastmod>
+    </url>
+    <url>
+        <loc>https://oregonboatingfoundation.org/guided-kayak-tours.html</loc>
+        <lastmod>2018-08-20T19:41:33.158Z</lastmod>
+    </url>
+    <url>
+        <loc>https://oregonboatingfoundation.org/history.html</loc>
+        <lastmod>2018-02-25T06:24:20.000Z</lastmod>
+    </url>
+    <url>
+        <loc>https://oregonboatingfoundation.org</loc>
+        <lastmod>2018-02-25T06:24:37.000Z</lastmod>
+    </url>
+    <url>
+        <loc>https://oregonboatingfoundation.org/kayak-classes.html</loc>
+        <lastmod>2018-02-25T06:25:48.000Z</lastmod>
+    </url>
+    <url>
+        <loc>https://oregonboatingfoundation.org/meet-our-staff.html</loc>
+        <lastmod>2018-07-07T21:29:29.207Z</lastmod>
+    </url>
+    <url>
+        <loc>https://oregonboatingfoundation.org/privacy.html</loc>
+        <lastmod>2018-02-25T06:25:53.000Z</lastmod>
+    </url>
+    <url>
+        <loc>https://oregonboatingfoundation.org/refunds.html</loc>
+        <lastmod>2018-02-25T06:25:59.000Z</lastmod>
+    </url>
+    <url>
+        <loc>https://oregonboatingfoundation.org/terms.html</loc>
+        <lastmod>2018-02-25T06:26:03.000Z</lastmod>
+    </url>
+    <url>
+        <loc>https://oregonboatingfoundation.org/volunteer.html</loc>
+        <lastmod>2018-02-25T06:26:14.000Z</lastmod>
+    </url>
+    <url>
+        <loc>https://oregonboatingfoundation.org/youth-camps.html</loc>
+        <lastmod>2018-02-25T06:26:20.000Z</lastmod>
+    </url>
+    <url>
+        <loc>https://oregonboatingfoundation.org/kayak-classes/coastal-kayaking.html</loc>
+        <lastmod>2018-02-25T06:20:25.000Z</lastmod>
+    </url>
+    <url>
+        <loc>https://oregonboatingfoundation.org/kayak-classes/introduction-to-kayaking.html</loc>
+        <lastmod>2018-02-25T06:20:40.000Z</lastmod>
+    </url>
+    <url>
+        <loc>https://oregonboatingfoundation.org/kayak-classes/kayak-touring.html</loc>
+        <lastmod>2018-02-25T06:20:49.000Z</lastmod>
+    </url>
+    <url>
+        <loc>https://oregonboatingfoundation.org/kayak-classes/kayaking-quick-start.html</loc>
+        <lastmod>2019-01-05T02:26:58.881Z</lastmod>
+    </url>
+    <url>
+        <loc>https://oregonboatingfoundation.org/newsletter/unsubscribed.html</loc>
+        <lastmod>2018-02-25T06:21:04.000Z</lastmod>
+    </url>
+    <url>
+        <loc>https://oregonboatingfoundation.org/waivers/signed.html</loc>
+        <lastmod>2018-02-25T17:14:45.000Z</lastmod>
+    </url>
+    <url>
+        <loc>https://oregonboatingfoundation.org/waivers/verify-email.html</loc>
+        <lastmod>2018-02-25T17:14:49.000Z</lastmod>
+    </url>
+    <url>
+        <loc>https://oregonboatingfoundation.org/youth-camps/advanced-kayak-camp.html</loc>
+        <lastmod>2018-08-24T17:16:05.794Z</lastmod>
+    </url>
+    <url>
+        <loc>https://oregonboatingfoundation.org/youth-camps/beginner-kayak-camp.html</loc>
+        <lastmod>2018-02-25T06:22:07.000Z</lastmod>
+    </url>
+    <url>
+        <loc>https://oregonboatingfoundation.org/youth-camps/intermediate-kayak-camp.html</loc>
+        <lastmod>2018-02-25T06:22:15.000Z</lastmod>
+    </url>
+    <url>
+        <loc>https://oregonboatingfoundation.org/youth-camps/sailing-camp.html</loc>
+        <lastmod>2018-02-25T06:22:24.000Z</lastmod>
+    </url>
+    <url>
+        <loc>https://oregonboatingfoundation.org/assets/foundation-icons/preview.html</loc>
+        <lastmod>2013-08-23T16:59:19.000Z</lastmod>
+    </url>
 </urlset>
