@@ -12,19 +12,15 @@ function setup() {
 }
 
 function detectWebpSupport() {
-  if (!window.self.createImageBitmap) { return false; }
   var webpData = 'data:image/webp;base64,UklGRh4AAABXRUJQVlA4TBEAAAAvAAAAAAfQ//73v/+BiOh/AAA=';
   var img = new Image();
   img.onload = function () {
     var result = (img.width > 0) && (img.height > 0);
-    console.log('Result: ', result);
     if (result) { 
       document.documentElement.classList.add('webp');
-    } else {
-      document.documentElement.classList.add('no-webp');
+      document.documentElement.classList.remove('no-webp');
     }
   };
-  img.onerror = function () { document.documentElement.classList.add('no-webp'); };
   img.src = webpData;
 }
 
