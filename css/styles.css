@@ -1011,6 +1011,15 @@ a[target]:after {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/free-family-boating.webp);
   }
 
+  .no-js .hero-home,
+  .no-webp .hero-home {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/home.jpg);
+  }
+
+  .webp .hero-home {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/home.webp);
+  }
+
   .no-js .hero-intermediate-kayak-camp,
   .no-js .hero-intermediate-kayak-camp {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/intermediate-kayak-camp.jpg);
@@ -1241,6 +1250,15 @@ a[target]:after {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/free-family-boating.webp);
   }
 
+  .no-js .hero-home,
+  .no-webp .hero-home {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/home.jpg);
+  }
+
+  .webp .hero-home {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/home.webp);
+  }
+
   .no-js .hero-intermediate-kayak-camp,
   .no-js .hero-intermediate-kayak-camp {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/intermediate-kayak-camp.jpg);
@@ -1432,6 +1450,15 @@ a[target]:after {
 
   .webp .hero-free-family-boating {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/free-family-boating.webp);
+  }
+
+  .no-js .hero-home,
+  .no-webp .hero-home {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/home.jpg);
+  }
+
+  .webp .hero-home {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/home.webp);
   }
 
   .no-js .hero-intermediate-kayak-camp,
