@@ -75,7 +75,7 @@ function setupButtonObserver() {
 }
 
 function setupCognitoForm() {
-  if (document.getElementById('cognito-form')) {
+  if (document.getElementById('email-us')) {
     Cognito.load("forms", { id: "1" });
   }
 }
@@ -160,5 +160,5 @@ function throttle(func, limit) {
 }
 
 document.addEventListener("DOMContentLoaded", setup);
-document.addEventListener("load", setupCognitoForm);
+window.addEventListener("load", setupCognitoForm);
 
