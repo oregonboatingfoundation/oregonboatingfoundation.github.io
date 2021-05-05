@@ -17,9 +17,7 @@ function detectWebpSupport() {
   var img = new Image();
   img.onload = function () {
     var result = (img.width > 0) && (img.height > 0);
-    if (result) { 
-      document.documentElement.classList.add('webp');
-    } else {
+    if (!result) {
       document.documentElement.classList.add('no-webp');
     }
   };
