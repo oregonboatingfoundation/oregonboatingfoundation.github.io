@@ -75,8 +75,8 @@ function setupButtonObserver() {
 }
 
 function setupCognitoForm() {
-  if (document.getElementById('contact-form')) {
-    Cognito.load('forms', { id: '1' });
+  if (document.getElementById('cognito-form')) {
+    Cognito.load("forms", { id: "1" });
   }
 }
 
