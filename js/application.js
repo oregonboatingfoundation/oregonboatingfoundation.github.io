@@ -67,11 +67,23 @@ function isMobile() {
 }
 
 function positionCTAButton() {
+  var ctaButton = document.querySelector("#call-to-action");
   var fixedButton = document.querySelector('#fixed-call-to-action');
-  var observer = new IntersectionObserver(function(entries) {
-    fixedButton.hidden = entries[0].isIntersecting;
-  }, { threshold: [1] });
-  observer.observe(document.querySelector("#call-to-action"));
+  if ('IntersectionObserver' in window) {
+    var observer = new IntersectionObserver(function(entries) {
+      fixedButton.hidden = entries[0].isIntersecting;
+    }, { threshold: [1] });
+    observer.observe(ctaButton);
+  } else {
+    var bounding = ctaButton.getBoundingClientRect();
+    var isInViewport = (
+      bounding.top >= 0 &&
+      bounding.left >= 0 &&
+      bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+      bounding.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+    fixedButton.hidden = isInViewport;
+  }
 }
 
 function removeMobileNavListeners() {
@@ -112,14 +124,14 @@ function setupCookieNotice() {
     return item.trim().indexOf('domain=oregonboatingfoundation.org') == 0;
   })) {
     var cookieNotice = document.querySelector('#cookies');
-    cookieNotice.style.display = 'flex';
+    cookieNotice.hidden = false;
     var cookieBtn = document.querySelector('#cookie-btn');
     cookieBtn.addEventListener('click', function() {
       var cookieData = "domain=oregonboatingfoundation.org";
       cookieData += ",acceptCookies=true,expires=";
       cookieData += ",expires=Fri, 31 Dec 9999 23:59:59 GMT";
       document.cookie = cookieData;
-      cookieNotice.style.display = 'none';
+      cookieNotice.hidden = true;
     });
   }
 }
