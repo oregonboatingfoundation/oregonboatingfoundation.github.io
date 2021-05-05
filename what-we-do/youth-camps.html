@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
   <head>
     <title>Youth Camps – Oregon Boating Foundation</title>
     <!-- Meta -->
@@ -34,6 +34,7 @@
     <link type="text/css" rel="stylesheet" href="/css/reset.css" media="all">
     <link type="text/css" rel="stylesheet" href="/css/styles.css" media="all">
     <!-- JS -->
+    <link rel="preconnect" href="https://www.google-analytics.com/">
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115486262-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -178,7 +179,11 @@
               <li>
                 <a href="/what-we-do/youth-camps/sailing-camp.html">
                   <figure>
-                    <img src="/images/tiles/sailing-camp.webp" alt="Kids sailing" />
+                    <picture>
+                      <source srcset="/images/tiles/sailing-camp.webp" type="image/webp" />
+                      <source srcset="/images/tiles/sailing-camp.jpg" type="image/jpeg" /> 
+                      <img src="/images/tiles/sailing-camp.jpg" alt="Kids sailing" />
+                    </picture>
                     <figcaption>Sailing Camp</figcaption>
                   </figure>
                 </a>
@@ -186,7 +191,11 @@
               <li>
                 <a href="/what-we-do/youth-camps/beginner-kayak-camp.html">
                   <figure>
-                    <img src="/images/tiles/beginner-kayak-camp.webp" alt="Kids kayaking" />
+                    <picture>
+                      <source srcset="/images/tiles/beginner-kayak-camp.webp" type="image/webp" />
+                      <source srcset="/images/tiles/beginner-kayak-camp.jpg" type="image/jpeg" /> 
+                      <img src="/images/tiles/beginner-kayak-camp.jpg" alt="Kids kayaking" />
+                    </picture>
                     <figcaption>Beginner Kayak Camp</figcaption>
                   </figure>
                 </a>
@@ -194,7 +203,11 @@
               <li>
                 <a href="/what-we-do/youth-camps/intermediate-kayak-camp.html">
                   <figure>
-                    <img src="/images/tiles/intermediate-kayak-camp.webp" alt="Student learning to roll a kayak" />
+                    <picture>
+                      <source srcset="/images/tiles/intermediate-kayak-camp.webp" type="image/webp" />
+                      <source srcset="/images/tiles/intermediate-kayak-camp.jpg" type="image/jpeg" /> 
+                      <img src="/images/tiles/intermediate-kayak-camp.jpg" alt="Student learning to roll a kayak" />
+                    </picture>
                     <figcaption>Intermediate Kayak Camp</figcaption>
                   </figure>
                 </a>
@@ -202,7 +215,11 @@
               <li>
                 <a href="/what-we-do/youth-camps/advanced-kayak-camp.html">
                   <figure>
-                    <img src="/images/tiles/advanced-kayak-camp.webp" alt="Kids sea kayaking" />
+                    <picture>
+                      <source srcset="/images/tiles/advanced-kayak-camp.webp" type="image/webp" />
+                      <source srcset="/images/tiles/advanced-kayak-camp.jpg" type="image/jpeg" /> 
+                      <img src="/images/tiles/advanced-kayak-camp.jpg" alt="Kids sea kayaking" />
+                    </picture>
                     <figcaption>Advanced Kayak Camp</figcaption>
                   </figure>
                 </a>
@@ -398,6 +415,7 @@
         </div>
       </div>
     </footer>
+    <script type="text/javascript">document.documentElement.classList.remove("no-js");</script>
     <script type="text/javascript" src="/js/application.js"></script>
     <script type="text/javascript" src="https://fareharbor.com/embeds/api/v1/?autolightframe=yes"></script>
   </body>

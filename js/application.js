@@ -1,6 +1,7 @@
-let mobileListeners = false;
+var mobileListeners = false;
 
 function setup() {
+  detectWebpSupport();
   positionCTAButton();
   setupButtonObserver();
   setupCollapsibles();
@@ -10,28 +11,44 @@ function setup() {
   setupResizeObserver();
 }
 
+function detectWebpSupport() {
+  if (!window.self.createImageBitmap) { return false; }
+  var webpData = 'data:image/webp;base64,UklGRh4AAABXRUJQVlA4TBEAAAAvAAAAAAfQ//73v/+BiOh/AAA=';
+  var img = new Image();
+  img.onload = function () {
+    var result = (img.width > 0) && (img.height > 0);
+    if (result) { 
+      document.documentElement.classList.add('webp');
+    } else {
+      document.documentElement.classList.add('no-webp');
+    }
+  };
+  img.onerror = function () { document.documentElement.classList.add('no-webp'); };
+  img.src = webpData;
+}
+
 function handleMenuButtonClick() {
-  let expanded = this.getAttribute('aria-expanded') === 'true' || false;
+  var expanded = this.getAttribute('aria-expanded') === 'true' || false;
   this.setAttribute('aria-expanded', !expanded);
-  let menu = document.querySelector('#site-menu');
+  var menu = document.querySelector('#site-menu');
   menu.style.display = expanded ? 'none' : 'block';
-  const subMenuButtons = document.querySelectorAll('#site-menu li button');
+  var subMenuButtons = document.querySelectorAll('#site-menu li button');
   subMenuButtons.forEach(function(button) {
     button.setAttribute('aria-expanded', false);
   });
-  const subMenus = document.querySelectorAll('#site-menu li ul');
+  var subMenus = document.querySelectorAll('#site-menu li ul');
   subMenus.forEach(function(subMenu) {
     subMenu.style.display = 'none';
   });
 }
 
 function handleSectionButtonClick() {
-  let currentButton = this;
-  let expanded = currentButton.getAttribute('aria-expanded') === 'true' || false;
+  var currentButton = this;
+  var expanded = currentButton.getAttribute('aria-expanded') === 'true' || false;
   currentButton.setAttribute('aria-expanded', !expanded);
-  let subMenu = currentButton.nextElementSibling;
+  var subMenu = currentButton.nextElementSibling;
   subMenu.style.display = expanded ? 'none' : 'block';
-  const sectionButtons = document.querySelectorAll('#site-menu button');
+  var sectionButtons = document.querySelectorAll('#site-menu button');
   sectionButtons.forEach(function(item) {
     if (item !== currentButton) {
       item.setAttribute('aria-expanded', false);
@@ -41,9 +58,9 @@ function handleSectionButtonClick() {
 }
 
 function isMobile() {
-  const mobileControls = document.querySelector('#mobile-menu-controls');
-  let styles = getComputedStyle(mobileControls)
-  let display;
+  var mobileControls = document.querySelector('#mobile-menu-controls');
+  var styles = getComputedStyle(mobileControls);
+  var display;
   for (var i = 0; i < styles.length; i++) {
     if (styles[i] === 'display') {
       display =  styles.getPropertyValue(styles[i]);
@@ -53,17 +70,17 @@ function isMobile() {
 }
 
 function positionCTAButton() {
-  const fixedButton = document.querySelector('#fixed-call-to-action');
-  const observer = new IntersectionObserver(function(entries) {
+  var fixedButton = document.querySelector('#fixed-call-to-action');
+  var observer = new IntersectionObserver(function(entries) {
     fixedButton.hidden = entries[0].isIntersecting;
   }, { threshold: [1] });
   observer.observe(document.querySelector("#call-to-action"));
 }
 
 function removeMobileNavListeners() {
-  const navButton = document.querySelector('#site-menu-btn');
+  var navButton = document.querySelector('#site-menu-btn');
   navButton.removeEventListener('click', handleMenuButtonClick);
-  const sectionButtons = document.querySelectorAll('#site-menu button');
+  var sectionButtons = document.querySelectorAll('#site-menu button');
   sectionButtons.forEach(function(button) {
     button.removeEventListener('click', handleSectionButtonClick);
   });
@@ -81,27 +98,27 @@ function setupCognitoForm() {
 }
 
 function setupCollapsibles() {
-  const collapsibleButtons = document.querySelectorAll('.collapsible button');
+  var collapsibleButtons = document.querySelectorAll('.collapsible button');
   collapsibleButtons.forEach(function(button) {
     button.addEventListener('click', function() {
-      let expanded = this.getAttribute('aria-expanded') === 'true' || false;
+      var expanded = this.getAttribute('aria-expanded') === 'true' || false;
       this.setAttribute('aria-expanded', !expanded);
-      let sibling = this.nextElementSibling;
+      var sibling = this.nextElementSibling;
       sibling.hidden = expanded;
     });
   });
 }
 
 function setupCookieNotice() {
-  let cookies = document.cookie;
+  var cookies = document.cookie;
   if (!cookies.split(';').some(function(item) {
-    return item.trim().indexOf('domain=oregonboatingfoundation.org') == 0
+    return item.trim().indexOf('domain=oregonboatingfoundation.org') == 0;
   })) {
-    let cookieNotice = document.querySelector('#cookies');
+    var cookieNotice = document.querySelector('#cookies');
     cookieNotice.style.display = 'flex';
-    const cookieBtn = document.querySelector('#cookie-btn');
+    var cookieBtn = document.querySelector('#cookie-btn');
     cookieBtn.addEventListener('click', function() {
-      let cookieData = "domain=oregonboatingfoundation.org";
+      var cookieData = "domain=oregonboatingfoundation.org";
       cookieData += ",acceptCookies=true,expires=";
       cookieData += ",expires=Fri, 31 Dec 9999 23:59:59 GMT";
       document.cookie = cookieData;
@@ -111,17 +128,17 @@ function setupCookieNotice() {
 }
 
 function setupCurrentYear() {
-  const currentYears = document.querySelectorAll('.current-year');
+  var currentYears = document.querySelectorAll('.current-year');
   currentYears.forEach(function(year) {
-    let date = new Date();
+    var date = new Date();
     year.textContent = date.getFullYear();
   });
 }
 
 function setupMobileNav() {
-  const navButton = document.querySelector('#site-menu-btn');
+  var navButton = document.querySelector('#site-menu-btn');
   navButton.addEventListener('click', handleMenuButtonClick);
-  const sectionButtons = document.querySelectorAll('#site-menu button');
+  var sectionButtons = document.querySelectorAll('#site-menu button');
   sectionButtons.forEach(function(button) {
     button.addEventListener('click', handleSectionButtonClick);
   });
@@ -139,11 +156,11 @@ function setupResizeObserver() {
 }
 
 function throttle(func, limit) {
-  let lastFunc;
-  let lastRan;
+  var lastFunc;
+  var lastRan;
   return function() {
-    const context = this;
-    const args = arguments;
+    var context = this;
+    var args = arguments;
     if (!lastRan) {
       func.apply(context, args);
       lastRan = Date.now();
@@ -156,7 +173,7 @@ function throttle(func, limit) {
         }
       }, limit - (Date.now() - lastRan));
     }
-  }
+  };
 }
 
 document.addEventListener("DOMContentLoaded", setup);

@@ -585,63 +585,152 @@ a[target]:after {
   width: 100%;
 }
 
-.hero-advanced-kayak-camp {
+.no-js .hero-advanced-kayak-camp,
+.no-webp .hero-advanced-kayak-camp {
+  background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/advanced-kayak-camp.jpg);
+}
+
+.webp .hero-advanced-kayak-camp {
   background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/advanced-kayak-camp.webp);
 }
 
-.hero-annual-reports {
+.no-js .hero-annual-reports,
+.no-webp .hero-annual-reports {
+  background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/reports.jpg);
+}
+
+.webp .hero-annual-reports {
   background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/reports.webp);
 }
 
-.hero-beginner-kayak-camp {
+.no-js .hero-beginner-kayak-camp,
+.no-webp .hero-beginner-kayak-camp {
+  background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/beginner-kayak-camp.jpg);
+}
+
+.webp .hero-beginner-kayak-camp {
   background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/beginner-kayak-camp.webp);
 }
 
-.hero-contact {
+.no-js .hero-contact,
+.no-webp .hero-contact {
+  background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/contact.jpg);
+}
+
+.webp .hero-contact {
   background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/contact.webp);
 }
 
-.hero-donate {
+.no-js .hero-donate,
+.no-webp .hero-donate {
+  background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/donate.jpg);
+}
+
+.webp .hero-donate {
   background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/donate.webp);
 }
 
-.hero-free-family-boating {
+.no-js .hero-free-family-boating,
+.no-webp .hero-free-family-boating {
+  background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/free-family-boating.jpg);
+}
+
+.webp .hero-free-family-boating {
   background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/free-family-boating.webp);
 }
 
-.hero-intermediate-kayak-camp {
+.no-js .hero-home,
+.no-webp .hero-home {
+  background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/home.jpg);
+}
+
+.webp .hero-home {
+  background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/home.webp);
+}
+
+.no-js .hero-intermediate-kayak-camp,
+.no-js .hero-intermediate-kayak-camp {
+  background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/intermediate-kayak-camp.jpg);
+}
+
+.webp .hero-intermediate-kayak-camp {
   background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/intermediate-kayak-camp.webp);
 }
 
-.hero-jobs {
+.no-js .hero-jobs,
+.no-webp .hero-jobs {
+  background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/jobs.jpg);
+}
+
+.webp .hero-jobs {
   background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/jobs.webp);
 }
 
-.hero-kayak-class {
+.no-js .hero-kayak-class,
+.no-webp .hero-kayak-class {
+  background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/kayak-class.jpg);
+}
+
+.webp .hero-kayak-class {
   background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/kayak-class.webp);
 }
 
-.hero-mission {
+.no-js .hero-mission,
+.no-webp .hero-mission {
+  background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/mission.jpg);
+}
+
+.webp .hero-mission {
   background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/mission.webp);
 }
 
-.hero-sailing-camp {
+.no-js .hero-sailing-camp,
+.no-webp .hero-sailing-camp {
+  background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/sailing-camp.jpg);
+}
+
+.webp .hero-sailing-camp {
   background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/sailing-camp.webp);
 }
 
-.hero-staff {
+.no-js .hero-staff,
+.no-webp .hero-staff {
+  background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/staff.jpg);
+}
+
+.no-js .hero-staff,
+.no-webp .hero-staff {
+  background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/staff.jpg);
+}
+
+.webp .hero-staff {
   background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/staff.webp);
 }
 
-.hero-tours {
+.no-js .hero-tours,
+.no-webp .hero-tours {
+  background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/tours.jpg);
+}
+
+.webp .hero-tours {
   background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/tours.webp);
 }
 
-.hero-volunteer {
+.no-js .hero-volunteer,
+.no-webp .hero-volunteer {
+  background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/volunteer.jpg);
+}
+
+.webp .hero-volunteer {
   background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/volunteer.webp);
 }
 
-.hero-youth-camps {
+.no-js .hero-youth-camps,
+.no-webp .hero-youth-camps {
+  background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/youth-camps.jpg);
+}
+
+.webp .hero-youth-camps {
   background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/youth-camps.webp);
 }
 
@@ -868,63 +957,143 @@ a[target]:after {
     padding: 1em;
   }
 
-  .hero-advanced-kayak-camp {
+  .no-js .hero-advanced-kayak-camp,
+  .no-webp .hero-advanced-kayak-camp {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/advanced-kayak-camp.jpg);
+  }
+
+  .webp .hero-advanced-kayak-camp {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/advanced-kayak-camp.webp);
   }
 
-  .hero-annual-reports {
+  .no-js .hero-annual-reports,
+  .no-webp .hero-annual-reports {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/reports.jpg);
+  }
+
+  .webp .hero-annual-reports {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/reports.webp);
   }
 
-  .hero-beginner-kayak-camp {
+  .no-js .hero-beginner-kayak-camp,
+  .no-webp .hero-beginner-kayak-camp {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/beginner-kayak-camp.jpg);
+  }
+
+  .webp .hero-beginner-kayak-camp {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/beginner-kayak-camp.webp);
   }
 
-  .hero-contact {
+  .no-js .hero-contact,
+  .no-webp .hero-contact {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/contact.jpg);
+  }
+
+  .webp .hero-contact {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/contact.webp);
   }
 
-  .hero-donate {
+  .no-js .hero-donate,
+  .no-webp .hero-donate {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/donate.jpg);
+  }
+
+  .webp .hero-donate {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/donate.webp);
   }
 
-  .hero-free-family-boating {
+  .no-js .hero-free-family-boating,
+  .no-webp .hero-free-family-boating {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/free-family-boating.jpg);
+  }
+
+  .webp .hero-free-family-boating {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/free-family-boating.webp);
   }
 
-  .hero-intermediate-kayak-camp {
+  .no-js .hero-intermediate-kayak-camp,
+  .no-js .hero-intermediate-kayak-camp {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/intermediate-kayak-camp.jpg);
+  }
+
+  .webp .hero-intermediate-kayak-camp {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/intermediate-kayak-camp.webp);
   }
 
-  .hero-jobs {
+  .no-js .hero-jobs,
+  .no-webp .hero-jobs {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/jobs.jpg);
+  }
+
+  .webp .hero-jobs {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/jobs.webp);
   }
 
-  .hero-kayak-class {
+  .no-js .hero-kayak-class,
+  .no-webp .hero-kayak-class {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/kayak-class.jpg);
+  }
+
+  .webp .hero-kayak-class {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/kayak-class.webp);
   }
 
-  .hero-mission {
+  .no-js .hero-mission,
+  .no-webp .hero-mission {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/mission.jpg);
+  }
+
+  .webp .hero-mission {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/mission.webp);
   }
 
-  .hero-sailing-camp {
+  .no-js .hero-sailing-camp,
+  .no-webp .hero-sailing-camp {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/sailing-camp.jpg);
+  }
+
+  .webp .hero-sailing-camp {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/sailing-camp.webp);
   }
 
-  .hero-staff {
+  .no-js .hero-staff,
+  .no-webp .hero-staff {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/staff.jpg);
+  }
+
+  .no-js .hero-staff,
+  .no-webp .hero-staff {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/staff.jpg);
+  }
+
+  .webp .hero-staff {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/staff.webp);
   }
-  
-  .hero-tours {
+
+  .no-js .hero-tours,
+  .no-webp .hero-tours {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/tours.jpg);
+  }
+
+  .webp .hero-tours {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/tours.webp);
   }
 
-  .hero-volunteer {
+  .no-js .hero-volunteer,
+  .no-webp .hero-volunteer {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/volunteer.jpg);
+  }
+
+  .webp .hero-volunteer {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/volunteer.webp);
   }
 
-  .hero-youth-camps {
+  .no-js .hero-youth-camps,
+  .no-webp .hero-youth-camps {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/youth-camps.jpg);
+  }
+
+  .webp .hero-youth-camps {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/youth-camps.webp);
   }
 
@@ -1018,63 +1187,143 @@ a[target]:after {
     line-height: 1.5em;
   }
 
-  .hero-advanced-kayak-camp {
+  .no-js .hero-advanced-kayak-camp,
+  .no-webp .hero-advanced-kayak-camp {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/advanced-kayak-camp.jpg);
+  }
+
+  .webp .hero-advanced-kayak-camp {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/advanced-kayak-camp.webp);
   }
 
-  .hero-annual-reports {
+  .no-js .hero-annual-reports,
+  .no-webp .hero-annual-reports {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/reports.jpg);
+  }
+
+  .webp .hero-annual-reports {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/reports.webp);
   }
 
-  .hero-beginner-kayak-camp {
+  .no-js .hero-beginner-kayak-camp,
+  .no-webp .hero-beginner-kayak-camp {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/beginner-kayak-camp.jpg);
+  }
+
+  .webp .hero-beginner-kayak-camp {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/beginner-kayak-camp.webp);
   }
 
-  .hero-contact {
+  .no-js .hero-contact,
+  .no-webp .hero-contact {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/contact.jpg);
+  }
+
+  .webp .hero-contact {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/contact.webp);
   }
 
-  .hero-donate {
+  .no-js .hero-donate,
+  .no-webp .hero-donate {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/donate.jpg);
+  }
+
+  .webp .hero-donate {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/donate.webp);
   }
 
-  .hero-free-family-boating {
+  .no-js .hero-free-family-boating,
+  .no-webp .hero-free-family-boating {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/free-family-boating.jpg);
+  }
+
+  .webp .hero-free-family-boating {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/free-family-boating.webp);
   }
 
-  .hero-intermediate-kayak-camp {
+  .no-js .hero-intermediate-kayak-camp,
+  .no-js .hero-intermediate-kayak-camp {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/intermediate-kayak-camp.jpg);
+  }
+
+  .webp .hero-intermediate-kayak-camp {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/intermediate-kayak-camp.webp);
   }
 
-  .hero-jobs {
+  .no-js .hero-jobs,
+  .no-webp .hero-jobs {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/jobs.jpg);
+  }
+
+  .webp .hero-jobs {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/jobs.webp);
   }
 
-  .hero-kayak-class {
+  .no-js .hero-kayak-class,
+  .no-webp .hero-kayak-class {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/kayak-class.jpg);
+  }
+
+  .webp .hero-kayak-class {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/kayak-class.webp);
   }
 
-  .hero-mission {
+  .no-js .hero-mission,
+  .no-webp .hero-mission {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/mission.jpg);
+  }
+
+  .webp .hero-mission {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/mission.webp);
   }
 
-  .hero-sailing-camp {
+  .no-js .hero-sailing-camp,
+  .no-webp .hero-sailing-camp {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/sailing-camp.jpg);
+  }
+
+  .webp .hero-sailing-camp {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/sailing-camp.webp);
   }
 
-  .hero-staff {
+  .no-js .hero-staff,
+  .no-webp .hero-staff {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/staff.jpg);
+  }
+
+  .no-js .hero-staff,
+  .no-webp .hero-staff {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/staff.jpg);
+  }
+
+  .webp .hero-staff {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/staff.webp);
   }
 
-  .hero-tours {
+  .no-js .hero-tours,
+  .no-webp .hero-tours {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/tours.jpg);
+  }
+
+  .webp .hero-tours {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/tours.webp);
   }
 
-  .hero-volunteer {
+  .no-js .hero-volunteer,
+  .no-webp .hero-volunteer {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/volunteer.jpg);
+  }
+
+  .webp .hero-volunteer {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/volunteer.webp);
   }
 
-  .hero-youth-camps {
+  .no-js .hero-youth-camps,
+  .no-webp .hero-youth-camps {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/youth-camps.jpg);
+  }
+
+  .webp .hero-youth-camps {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/youth-camps.webp);
   }
 
@@ -1131,63 +1380,143 @@ a[target]:after {
     padding-top: 192px;
   }
 
-  .hero-advanced-kayak-camp {
+  .no-js .hero-advanced-kayak-camp,
+  .no-webp .hero-advanced-kayak-camp {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/advanced-kayak-camp.jpg);
+  }
+
+  .webp .hero-advanced-kayak-camp {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/advanced-kayak-camp.webp);
   }
 
-  .hero-annual-reports {
+  .no-js .hero-annual-reports,
+  .no-webp .hero-annual-reports {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/reports.jpg);
+  }
+
+  .webp .hero-annual-reports {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/reports.webp);
   }
 
-  .hero-beginner-kayak-camp {
+  .no-js .hero-beginner-kayak-camp,
+  .no-webp .hero-beginner-kayak-camp {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/beginner-kayak-camp.jpg);
+  }
+
+  .webp .hero-beginner-kayak-camp {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/beginner-kayak-camp.webp);
   }
 
-  .hero-contact {
+  .no-js .hero-contact,
+  .no-webp .hero-contact {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/contact.jpg);
+  }
+
+  .webp .hero-contact {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/contact.webp);
   }
 
-  .hero-donate {
+  .no-js .hero-donate,
+  .no-webp .hero-donate {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/donate.jpg);
+  }
+
+  .webp .hero-donate {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/donate.webp);
   }
 
-  .hero-free-family-boating {
+  .no-js .hero-free-family-boating,
+  .no-webp .hero-free-family-boating {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/free-family-boating.jpg);
+  }
+
+  .webp .hero-free-family-boating {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/free-family-boating.webp);
   }
 
-  .hero-intermediate-kayak-camp {
+  .no-js .hero-intermediate-kayak-camp,
+  .no-js .hero-intermediate-kayak-camp {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/intermediate-kayak-camp.jpg);
+  }
+
+  .webp .hero-intermediate-kayak-camp {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/intermediate-kayak-camp.webp);
   }
 
-  .hero-jobs {
+  .no-js .hero-jobs,
+  .no-webp .hero-jobs {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/jobs.jpg);
+  }
+
+  .webp .hero-jobs {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/jobs.webp);
   }
 
-  .hero-kayak-class {
+  .no-js .hero-kayak-class,
+  .no-webp .hero-kayak-class {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/kayak-class.jpg);
+  }
+
+  .webp .hero-kayak-class {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/kayak-class.webp);
   }
 
-  .hero-mission {
+  .no-js .hero-mission,
+  .no-webp .hero-mission {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/mission.jpg);
+  }
+
+  .webp .hero-mission {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/mission.webp);
   }
 
-  .hero-sailing-camp {
+  .no-js .hero-sailing-camp,
+  .no-webp .hero-sailing-camp {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/sailing-camp.jpg);
+  }
+
+  .webp .hero-sailing-camp {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/sailing-camp.webp);
   }
 
-  .hero-staff {
+  .no-js .hero-staff,
+  .no-webp .hero-staff {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/staff.jpg);
+  }
+
+  .no-js .hero-staff,
+  .no-webp .hero-staff {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/staff.jpg);
+  }
+
+  .webp .hero-staff {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/staff.webp);
   }
 
-  .hero-tours {
+  .no-js .hero-tours,
+  .no-webp .hero-tours {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/tours.jpg);
+  }
+
+  .webp .hero-tours {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/tours.webp);
   }
 
-  .hero-volunteer {
+  .no-js .hero-volunteer,
+  .no-webp .hero-volunteer {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/volunteer.jpg);
+  }
+
+  .webp .hero-volunteer {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/volunteer.webp);
   }
 
-  .hero-youth-camps {
+  .no-js .hero-youth-camps,
+  .no-webp .hero-youth-camps {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/youth-camps.jpg);
+  }
+
+  .webp .hero-youth-camps {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/youth-camps.webp);
   }
 
