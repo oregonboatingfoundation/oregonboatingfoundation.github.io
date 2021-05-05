@@ -566,7 +566,7 @@ a[target]:after {
   background-size: cover;
   display: flex;
   flex-direction: column;
-  height: 75vh;
+  height: 80vh;
   justify-content: flex-end;
   padding: 0 1em 1em;
 }
