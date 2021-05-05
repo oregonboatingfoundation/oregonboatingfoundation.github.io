@@ -1,6 +1,7 @@
 let mobileListeners = false;
 
 function setup() {
+  positionCTAButton();
   setupButtonObserver();
   setupCollapsibles();
   //setupCookieNotice();
@@ -51,6 +52,14 @@ function isMobile() {
   return display === 'none' ? false : true;
 }
 
+function positionCTAButton() {
+  const fixedButton = document.querySelector('#fixed-call-to-action');
+  const observer = new IntersectionObserver(function(entries) {
+    fixedButton.hidden = entries[0].isIntersecting;
+  }, { threshold: [1] });
+  observer.observe(document.querySelector("#call-to-action"));
+}
+
 function removeMobileNavListeners() {
   const navButton = document.querySelector('#site-menu-btn');
   navButton.removeEventListener('click', handleMenuButtonClick);
@@ -62,14 +71,7 @@ function removeMobileNavListeners() {
 }
 
 function setupButtonObserver() {
-  window.addEventListener('scroll', throttle(function() {
-    const button = document.querySelector('#fixed-call-to-action');
-    const fixedButton = document.querySelector('#fixed-call-to-action');
-    const observer = new IntersectionObserver(function(entries) {
-      fixedButton.hidden = entries[0].isIntersecting;
-    }, { threshold: [1] });
-    observer.observe(document.querySelector("#call-to-action"));
-  }, 500));
+  window.addEventListener('scroll', throttle(positionCTAButton, 500));
 }
 
 function setupCognitoForm() {
