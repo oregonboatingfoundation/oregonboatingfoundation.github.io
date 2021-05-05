@@ -1,0 +1,1198 @@
+/* Global Styles */
+html {
+  scroll-padding-top: 92px;
+}
+
+body {
+  color: #231F20;
+  font-family: 'Source Sans Pro', 'Gill Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+
+a[href] {
+  color: #075D92;
+  text-decoration-color: #075D92;
+  text-decoration-thickness: 0.04167em;
+  text-underline-offset: 1.5px;
+}
+
+a[href]:hover,
+a[href]:focus {
+  color: #2087C8;
+}
+
+a[target]:after {
+  background-image: url(/images/assets/external-link.svg);
+  background-repeat: no-repeat;
+  background-size: 18px 18px;
+  content:"";
+  display: inline-block;
+  height: 18px;
+  margin-left: 3px;
+  vertical-align: middle;
+  width: 18px; 
+}
+
+#header {
+  background: #ffffff;
+  border-bottom: 1px solid #f2f1ee;
+  box-shadow: 0 1px 2px 0px rgba(35,31,32,0.25);
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 2;
+}
+
+#header .logo {
+  background-image: url(/images/assets/wordmark.svg);
+  background-repeat: no-repeat;
+  display: block;
+  font-size: 0;
+  line-height: 0;
+  height: 48px;
+  width: 165px;
+}
+
+#header nav > div {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+#header nav > div > #mobile-menu-controls {
+  line-height: 0;
+}
+
+#header nav > div > #mobile-menu-controls > a  {
+  display: inline-block;
+  height: 48px;
+  line-height: 0;
+  text-decoration: none;
+  width: 48px;
+}
+
+#header nav > div > #mobile-menu-controls > a > span  {
+  display: none;
+}
+
+#header #site-menu-btn  {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  line-height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+#header #site-menu-btn .line  {
+  fill: none;
+  stroke: #231F20;
+  stroke-width: 3;
+  transition: stroke-dasharray 400ms cubic-bezier(0.4, 0, 0.2, 1),
+    stroke-dashoffset 400ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#header #site-menu-btn .line1,
+#header #site-menu-btn .line3  {
+  stroke-dasharray: 28 97;
+  stroke-dashoffset: 56;
+}
+
+#header #site-menu-btn[aria-expanded="true"] .line1,
+#header #site-menu-btn[aria-expanded="true"] .line3 {
+  stroke-dasharray: 42 97;
+  stroke-dashoffset: 148;
+}
+
+#header #site-menu-btn .line2  {
+  stroke-dasharray: 28 28;
+}
+
+#header #site-menu-btn[aria-expanded="true"] .line2 {
+  stroke-dashoffset: 28;
+}
+
+#header #site-menu {
+  display: none;
+}
+
+#header #site-menu > li > a {
+  color: #231F20;
+  display: block;
+  font-size: 24px;
+  line-height: 1;
+  margin: 0;
+  padding: 10px;
+  text-decoration: none
+}
+
+#header #site-menu > li {
+  border-top: 1px solid #f2f1ee;
+}
+
+#header #site-menu > li > a:hover,
+#header #site-menu > li > a:focus {
+  color: #2087C8;
+}
+
+#header #site-menu > li > button  {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  font-size: 24px;
+  justify-content: space-between;
+  line-height: 1;
+  margin: 0;
+  padding: 10px;
+  width: 100%;
+}
+
+#header #site-menu > li > button .line {
+  fill: none;
+  stroke: #231F20;
+  stroke-width: 4;
+  transition: stroke-dasharray 400ms cubic-bezier(0.4, 0, 0.2, 1),
+    stroke-dashoffset 400ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#header #site-menu > li > button .line1 {
+  stroke-dasharray: 28 28;
+}
+
+#header #site-menu > li > button .line2 {
+  stroke-dasharray: 42 97;
+  stroke-dashoffset: -55;
+}
+
+#header #site-menu > li > button[aria-expanded="true"] .line2 {
+  stroke-dasharray: 28 97;
+  stroke-dashoffset: 0;
+}
+
+#header #site-menu > li  > ul {
+  display: none;
+}
+
+#header #site-menu > li  > ul > li {
+  border-top: 1px solid #f2f1ee;
+}
+
+#header #site-menu > li > ul > li:last-child {
+  border-bottom: 1px solid #f2f1ee;
+}
+
+#header #site-menu > li > ul > li > a {
+  color: #231F20;
+  display: block;
+  font-size: 0.75em;
+  line-height: 1;
+  margin: 0;
+  padding: 10px 10px 10px 22px;
+  text-decoration: none
+}
+
+#main {
+  margin-top: 68px;
+}
+
+#main section {
+  border-bottom: 1px solid #f2f1ee;
+  padding: 1em;
+}
+
+#main section > * + * {
+  margin-top: 1em;
+}
+
+#main section h1,
+#main section h2 {
+  font-size: 1.333em;
+  line-height: 1.1em;
+  text-align: center;
+}
+
+#main section h1:after,
+#main section h2:after {
+  background: #c0b8a9;
+  content: "";
+  display: block;
+  height: 1px;
+  margin: 0.5em auto;
+  overflow: hidden;
+  width: 3em;
+}
+
+#main section h3 {
+  color: #595959;
+  font-size: 1.167em;
+  font-weight: 400;
+  line-height: 1.1em;
+}
+
+#main section ul {
+  list-style: disc;
+  margin-left: 1em;
+}
+
+#newsletter {
+  background-color: #C0B8A9;
+  padding: 1em;
+  text-align: center;
+}
+
+#newsletter h2 {
+  font-size: 1.333em;
+  line-height: 1.1em;
+  text-align: center;
+}
+
+#newsletter h2:after {
+  background: #231f20;
+  content: "";
+  display: block;
+  height: 1px;
+  margin: 0.5em auto;
+  overflow: hidden;
+  width: 3em;
+}
+
+#newsletter p,
+#newsletter label,
+#newsletter button {
+  font-size: 80%;
+  line-height: 1.5em;
+}
+
+#newsletter .container > * + * {
+  margin-top: 1em;
+}
+
+#newsletter form {
+  text-align: left;
+}
+
+#newsletter form .btn {
+  background-color: transparent;
+  border: 1px solid #231f20;
+  color: #231f20 !important;
+  padding: 0.5em 1em;
+}
+
+#newsletter form .btn:hover,
+#newsletter form .btn:focus {
+  background-color: #ffffff;
+}
+
+#cookies {
+  align-items: center;
+  background-color: #075D92;
+  color: #ffffff;
+  display: none;
+  justify-content: space-between;
+  left: 0;
+  padding: 1em;
+  position: fixed;
+  top: 68px;
+  width: 100%;
+  z-index: 3;
+}
+
+#cookies h2 {
+  font-size: 1em;
+  line-height: 1.1em;
+  margin-bottom: 0.5em;
+}
+
+#cookies p {
+  font-size: 0.75em;
+  line-height: 1.3em;
+  padding-right: 1em;
+}
+
+#cookies a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+#cookies a:hover,
+#cookies a:focus{
+  color: orange;
+  text-decoration: none;
+}
+
+#cookies .btn {
+  background-color: #ffffff;
+  color: #231f20 !important;
+  padding: 0.5em 1em !important;
+  white-space: nowrap;
+}
+
+#cookies .btn:hover,
+#cookies .btn:focus {
+  background-color: #231f20;
+  color: #ffffff !important;
+}
+
+#footer {
+  background: #231f20;
+  color: #ffffff;
+  line-height: 1.5em;
+  padding: 1em 1em 4em;
+}
+
+#footer .container > div + div {
+  margin-top: 1em;
+}
+
+#footer .copyright {
+  color: #abaaaa;
+  font-size: 60%;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+#footer .footer-links h2 {
+  font-size: 0.875em;
+}
+
+#footer .footer-links > div + div {
+  margin-top: 1em;
+}
+
+#footer .footer-links ul > li {
+  font-size: 80%;
+  line-height: 2em;
+}
+
+#footer .footer-links ul > li > a {
+  color: #abaaaa;
+  text-decoration: none;
+}
+
+#footer .footer-links ul > li > a:hover,
+#footer .footer-links ul > li > a:focus {
+  color: #ffffff;
+}
+
+#footer .social-links > ul {
+  display: flex;
+  justify-content: center;
+}
+
+#footer .social-links > ul > li {
+  line-height: 1;
+}
+
+#footer .social-links > ul > li + li {
+  margin-left: 0.25em;
+}
+
+#footer .social-links > ul > li > a {
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.62;
+  padding: 0.5em;
+}
+
+#footer .social-links > ul > li > a:hover,
+#footer .social-links > ul > li > a:focus {
+  opacity: 1;
+}
+
+#footer .social-links > ul > li > a[target]:after {
+  content: none !important;
+}
+
+#footer > .container,
+#main > section,
+#newsletter > .container,
+.aside > .container {
+  margin: 0 auto;
+  max-width: 60em;
+}
+
+.aside {
+  background: #f2f1ee; 
+  border-top: 1px solid #C0B8A9;
+  padding: 1em;
+  text-align: center;
+}
+
+.aside .container > * + * {
+  margin-top: 1em;
+}
+
+.aside h2 {
+  font-size: 1.333em;
+  line-height: 1.1em;
+  text-align: center;
+}
+
+.aside h2:after {
+  background: #c0b8a9;
+  content: "";
+  display: block;
+  height: 1px;
+  margin: 0.5em auto;
+  overflow: hidden;
+  width: 3em;
+}
+
+.aside h3 {
+  font-size: 1em;
+}
+
+.aside p {
+  font-size: 80%;
+  line-height: 1.5em;
+}
+
+.aside ul > li + li {
+  margin-top: 1em;
+}
+
+.aside ul > li {
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 60px;
+  padding-top: 72px;
+}
+
+.aside ul > li.safety {
+  background-image: url(/images/assets/safety.svg);
+}
+
+.aside ul > li.affordable {
+  background-image: url(/images/assets/affordable.svg);
+}
+
+.aside ul > li.accessible {
+  background-image: url(/images/assets/accessible.svg);
+}
+
+.aside ul > li.staff {
+  background-image: url(/images/assets/staff.svg);
+}
+
+.badges  {
+  text-align: center;
+}
+
+.badges a {
+  display: inline-block;
+}
+
+.badges a[target]:after {
+  content: none;
+}
+
+.btn {
+  background-color: #075D92;
+  border: none;
+  border-radius: 0.4167em;
+  color: #ffffff !important;
+  cursor: pointer;
+  font-weight: 400;
+  padding: 0.5em;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #2087C8;
+}
+
+.btn.fixed {
+  border-radius: 0;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  width: 100% !important;
+  z-index: 5;
+}
+
+.collapsible > li > button {
+  background: transparent;
+  border: none;
+  color: #075D92;
+  cursor: pointer;
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+}
+
+.collapsible > li > button:hover,
+.collapsible > li > button:focus {
+  color: #2087C8;
+}
+
+.collapsible > li > div {
+  padding: 1em 0;
+}
+
+.collapsible > li > div > * + * {
+  margin-top: 1em;
+}
+
+.form-group:not(:last-child),
+.form-inputs {
+  margin-bottom: 1em;
+}
+
+.form-group input[type="email"],
+.form-group input[type="text"] {
+  border: 1px solid #231f20;
+  font-size: 1em;
+  line-height: 1em;
+  padding: 0.25em 0.5em;
+  width: 100%;
+}
+
+.form-group label {
+  display: block;
+}
+
+.hero {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  justify-content: flex-end;
+  padding: 0 1em 1em;
+}
+
+.hero h1 {
+  color: #ffffff;
+  font-size: 1.667em;
+  font-weight: 600;
+  line-height: 1;
+  text-align: center;
+  text-shadow: 0px 0px 4px #231f20;
+}
+
+.hero .btn {
+  margin-top: 1em;
+  width: 100%;
+}
+
+.hero-advanced-kayak-camp {
+  background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/advanced-kayak-camp.webp);
+}
+
+.hero-annual-reports {
+  background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/reports.webp);
+}
+
+.hero-beginner-kayak-camp {
+  background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/beginner-kayak-camp.webp);
+}
+
+.hero-contact {
+  background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/contact.webp);
+}
+
+.hero-donate {
+  background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/donate.webp);
+}
+
+.hero-free-family-boating {
+  background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/free-family-boating.webp);
+}
+
+.hero-intermediate-kayak-camp {
+  background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/intermediate-kayak-camp.webp);
+}
+
+.hero-jobs {
+  background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/jobs.webp);
+}
+
+.hero-kayak-class {
+  background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/kayak-class.webp);
+}
+
+.hero-mission {
+  background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/mission.webp);
+}
+
+.hero-sailing-camp {
+  background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/sailing-camp.webp);
+}
+
+.hero-staff {
+  background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/staff.webp);
+}
+
+.hero-tours {
+  background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/tours.webp);
+}
+
+.hero-volunteer {
+  background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/volunteer.webp);
+}
+
+.hero-youth-camps {
+  background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/youth-camps.webp);
+}
+
+.image-tiles {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none !important;
+  margin: 1em -0.5em 0 -0.5em !important;
+}
+
+.image-tiles > li {
+  margin-top: 1em;
+  padding: 0 0.5em;
+  text-align: center;
+  width: 100%;
+}
+
+.image-tiles > li figure {
+  border: 1px solid #e6e6e6;
+  padding: 5px;
+}
+
+.image-tiles > li figure img {
+  width: 100%;
+}
+
+.image-tiles > li figcaption {
+  background-color: #231f20;
+  color: #ffffff;
+  padding: 0.5em 1em;
+}
+
+.image-tiles > li h3 {
+  color: #ffffff !important;
+  font-size: 1em !important;
+}
+
+.image-tiles > li p {
+  font-size: 0.75em !important;
+  line-height: 1.5em;
+}
+
+.image-tiles > li a {
+  color: #ffffff;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.image-tiles > li a:hover,
+.image-tiles > li a:focus {
+  color: #ffffff;
+}
+
+.image-tiles > li > a figcaption {
+  background-color: #231f20;
+  font-weight: 400;
+  padding: 0.5em 1em;
+}
+
+.image-tiles > li a:hover figcaption,
+.image-tiles > li a:focus figcaption {
+  background-color:#2087c8;
+}
+
+.responsive-embed {
+  position: relative;
+  height: 0;
+  padding-bottom: 75%;
+  overflow: hidden;
+}
+
+.responsive-embed iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Very small mobile devices */
+@media all and (max-width: 290px) {
+  #header .logo {
+    background-image: url(/images/assets/logo.svg);
+    height: 48px;
+    width: 48px;
+  }
+}
+
+/* Tablet Styles */
+@media all and (min-width: 768px) {
+  html {
+    scroll-padding-top: 121px;
+  }
+
+  #header nav > div {
+    padding: 1em;
+  }
+
+  #header nav > div > #mobile-menu-controls {
+    display: flex;
+  }
+
+  #header nav > div > #mobile-menu-controls > a.call-link  {
+    align-items: center;
+    color: #231f20;
+    display: flex;
+    justify-content: start;
+    padding-right: 10px;
+    width: auto !important;
+  }
+  
+  #header nav > div > #mobile-menu-controls > a > span  {
+    display: inline-block;
+  }
+
+  #header #site-menu > li > a,
+  #header #site-menu > li > button {
+    padding: 0.5em 1em;
+  }
+
+  #header #site-menu > li > ul > li > a {
+    padding-left: 2em;
+  }
+
+  #footer {
+    padding: 1.5em 1.5em 5em;
+  }
+
+  #footer .container > div + div {
+    margin-top: 1.5em;
+  }
+
+  #footer .footer-links {
+    display: flex;
+  }
+
+  #footer .footer-links > div {
+    width: 25%;
+  }
+
+  #footer .footer-links > div + div {
+    margin-left: 1.5em;
+    margin-top: 0;
+  }
+
+  #footer .social-links > ul > li + li {
+    margin-left: 0.5em;
+  }
+
+  #main {
+    margin-top: 97px;
+  }
+
+  #main section {
+    padding: 1.5em;
+  }
+
+  #newsletter {
+    padding: 1.5em;
+  }
+
+  #newsletter .form-inputs {
+    display: flex;
+    margin-bottom: 0;
+  }
+
+  #newsletter .form-inputs .form-group {
+    width: 33%;
+  }
+
+  #newsletter .form-inputs .form-group + .form-group {
+    margin-left: 1.5em;
+  }
+
+  #cookies {
+    padding: 1.5em;
+    top: 97px;
+  }
+
+  #cookies p {
+    padding-right: 1.5em;
+  }
+
+  .aside {
+    padding: 1.5em;
+  }
+
+  .aside ul {
+    display: flex;
+  }
+
+  .aside ul > li {
+    width: 25%;
+  }
+
+  .aside ul > li + li {
+    margin-left: 1.5em;
+    margin-top: 0;
+  }
+
+  .aside ul > li > p {
+    font-size: 60%;
+    line-height: 1.5em;
+  }
+
+  .hero {
+    height: 50vh;
+    padding: 0 1.5em 1.5em;
+  }
+
+  .hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+  }
+
+  .hero .btn {
+    margin: 0 auto;
+    padding: 0.5em 2em;
+    width: fit-content;
+  }
+
+  .hero .fixed {
+    font-size: 110%;
+    padding: 1em;
+  }
+
+  .hero-advanced-kayak-camp {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/advanced-kayak-camp.webp);
+  }
+
+  .hero-annual-reports {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/reports.webp);
+  }
+
+  .hero-beginner-kayak-camp {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/beginner-kayak-camp.webp);
+  }
+
+  .hero-contact {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/contact.webp);
+  }
+
+  .hero-donate {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/donate.webp);
+  }
+
+  .hero-free-family-boating {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/free-family-boating.webp);
+  }
+
+  .hero-intermediate-kayak-camp {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/intermediate-kayak-camp.webp);
+  }
+
+  .hero-jobs {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/jobs.webp);
+  }
+
+  .hero-kayak-class {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/kayak-class.webp);
+  }
+
+  .hero-mission {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/mission.webp);
+  }
+
+  .hero-sailing-camp {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/sailing-camp.webp);
+  }
+
+  .hero-staff {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/staff.webp);
+  }
+  
+  .hero-tours {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/tours.webp);
+  }
+
+  .hero-volunteer {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/volunteer.webp);
+  }
+
+  .hero-youth-camps {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/youth-camps.webp);
+  }
+
+  .image-tiles > li {
+    width: 50%;
+  }
+}
+
+/*Desktop Styles */
+@media all and (min-width: 1024px) {
+  #header nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #header nav > div > #mobile-menu-controls {
+    display: none;
+  }
+
+  #header #site-menu {
+    align-items: center;
+    display: flex;
+  }
+
+  #header #site-menu > li {
+    align-items: center;
+    border-top: none;
+    display: flex;
+    height: 100%;
+    position: relative;
+  }
+
+  #header #site-menu > li:hover > a,
+  #header #site-menu > li:hover > button {
+    color: #2087c8 !important;
+  }
+
+  #header #site-menu > li > button > svg {
+    display: none;
+  }
+
+  #header #site-menu > li:hover > ul,
+  #header #site-menu > li:focus-within > ul {
+    display: block;
+  }
+
+  #header #site-menu > li  > ul {
+    background-color: #ffffff;
+    position: absolute;
+    box-shadow: 0 1px 2px 0px rgba(35,31,32,0.25);
+    top: 97px;
+    width: 100%;
+    z-index: 1;
+  }
+
+  #header #site-menu > li > ul > li > a {
+    padding: 0.5em 1.333em;
+  }
+
+  #header #site-menu > li > ul > li > a:hover,
+  #header #site-menu > li > ul > li > a:focus {
+    color: #2087C8;
+  }
+
+  #main section h1,
+  #main section h2,
+  #newsletter h2,
+  .aside h2 {
+    font-size: 2em;
+  }
+
+  #main section h3 {
+    font-size: 1.5em;
+  }
+
+  #newsletter-form .form-group:last-child {
+    text-align: center;
+  }
+
+  .aside ul {
+    margin-top: 1.5em
+  }
+
+  .aside ul > li {
+    background-size: 84px;
+    padding-top: 96px;
+  }
+
+  .aside ul > li > p {
+    font-size: 80%;
+    line-height: 1.5em;
+  }
+
+  .hero-advanced-kayak-camp {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/advanced-kayak-camp.webp);
+  }
+
+  .hero-annual-reports {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/reports.webp);
+  }
+
+  .hero-beginner-kayak-camp {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/beginner-kayak-camp.webp);
+  }
+
+  .hero-contact {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/contact.webp);
+  }
+
+  .hero-donate {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/donate.webp);
+  }
+
+  .hero-free-family-boating {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/free-family-boating.webp);
+  }
+
+  .hero-intermediate-kayak-camp {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/intermediate-kayak-camp.webp);
+  }
+
+  .hero-jobs {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/jobs.webp);
+  }
+
+  .hero-kayak-class {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/kayak-class.webp);
+  }
+
+  .hero-mission {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/mission.webp);
+  }
+
+  .hero-sailing-camp {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/sailing-camp.webp);
+  }
+
+  .hero-staff {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/staff.webp);
+  }
+
+  .hero-tours {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/tours.webp);
+  }
+
+  .hero-volunteer {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/volunteer.webp);
+  }
+
+  .hero-youth-camps {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/youth-camps.webp);
+  }
+
+  .image-tiles.condensed > li {
+    width: 33%;
+  }
+}
+
+/* Keep newsletter form from getting weird. */
+@media all and (min-width: 1200px) {
+  #newsletter-form {
+    max-width: 30em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Cinema Styles */
+@media all and (min-width: 1920px) {
+  html {
+    scroll-padding-top: 178px;
+  }
+
+  body {
+    font-size: 48px;
+    line-height: 1.5em;
+  }
+
+  #header .logo {
+    background-size: 100%;
+    height: 96px;
+    width: 330px;
+  }
+
+  #header #site-menu > li > a,
+  #header #site-menu > li > button  {
+    font-size: 48px;
+  }
+
+  #header #site-menu > li  > ul {
+    top: 192px;
+  }
+
+  #main {
+    margin-top: 145px;
+  }
+
+  #cookies {
+    top: 145px;
+  }
+
+  .aside ul > li {
+    background-size: 156px;
+    padding-top: 192px;
+  }
+
+  .hero-advanced-kayak-camp {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/advanced-kayak-camp.webp);
+  }
+
+  .hero-annual-reports {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/reports.webp);
+  }
+
+  .hero-beginner-kayak-camp {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/beginner-kayak-camp.webp);
+  }
+
+  .hero-contact {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/contact.webp);
+  }
+
+  .hero-donate {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/donate.webp);
+  }
+
+  .hero-free-family-boating {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/free-family-boating.webp);
+  }
+
+  .hero-intermediate-kayak-camp {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/intermediate-kayak-camp.webp);
+  }
+
+  .hero-jobs {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/jobs.webp);
+  }
+
+  .hero-kayak-class {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/kayak-class.webp);
+  }
+
+  .hero-mission {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/mission.webp);
+  }
+
+  .hero-sailing-camp {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/sailing-camp.webp);
+  }
+
+  .hero-staff {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/staff.webp);
+  }
+
+  .hero-tours {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/tours.webp);
+  }
+
+  .hero-volunteer {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/volunteer.webp);
+  }
+
+  .hero-youth-camps {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/youth-camps.webp);
+  }
+
+  .image-tiles > li,
+  .image-tiles.condensed > li {
+    width: 25%;
+  }
+}

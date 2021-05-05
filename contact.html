@@ -1,1016 +1,372 @@
-<!doctype html>
-<html class="no-js" lang="en" prefix="og: http://ogp.me/ns#" itemscope>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <title>Contact – Oregon Boating Foundation</title>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Contact us by calling (800) 806-4882 or sending an email to contact@oregonboatingfoundation.org. Our mailing address is PO Box 701, Newport, OR 97365.">
-    <meta itemprop="name" content="Contact">
-    <meta itemprop="description" content="Contact us by calling (800) 806-4882 or sending an email to contact@oregonboatingfoundation.org. Our mailing address is PO Box 701, Newport, OR 97365.">
-    <meta itemprop="image" content="/assets/img/obf-logo-full.png">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Contact">
-    <meta property="og:image" content="/assets/img/obf-logo-full.png">
+    <meta property="og:title" content="Newport Kayak Tours">
+    <meta property="og:image" content="/images/og-image.png">
     <meta property="og:description" content="Contact us by calling (800) 806-4882 or sending an email to contact@oregonboatingfoundation.org. Our mailing address is PO Box 701, Newport, OR 97365.">
     <meta property="og:url" content="https://oregonboatingfoundation.org/contact.html">
     <meta property="og:site_name" content="Oregon Boating Foundation">
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@oregonboating" />
-    <meta name="twitter:creator" content="@bgetting" />
-    <meta name="google-site-verification" content="-4oZZWYuu11zSoCBryT4aUhXnx1Sn__Su3khN1vnUrQ">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600">
-    <link rel="stylesheet" href="/assets/foundation-icons/foundation-icons.css">
-    <link rel="stylesheet" href="/assets/css/app.css">
-    <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/ico">
     <link rel="canonical" href="https://oregonboatingfoundation.org/contact.html">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" onload="this.media='all'" />
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" />
+    </noscript>
+    <!-- CSS -->
+    <link type="text/css" rel="stylesheet" href="/css/reset.css" media="all">
+    <link type="text/css" rel="stylesheet" href="/css/styles.css" media="all">
+    <!-- JS -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115486262-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'UA-115486262-1');
     </script>
-
   </head>
   <body>
-    <div class="top-nav">
-      <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
-        <div class="title-bar-left">
-          <a href="/">
-            <img src="/assets/img/obf-logo-full.svg" alt="OBF Logo" width="106" height="32" />
-          </a>
+    <header id="header">
+      <nav>
+        <div>
+          <a href="/" class="logo">Logo</a>
+          <div id="mobile-menu-controls">
+            <a href="tel:+18008064882" aria-label="Call Us" class="call-link">
+              <svg width="48" height="48" viewBox="0 0 48 48">
+                <path d="M34.3555 28.5547L29.543 26.4922C29.4141 26.4492 29.2852 26.4063 29.1133 26.4063C28.8125 26.4063 28.5117 26.5781 28.3398 26.793L26.1914 29.4141C22.8398 27.8242 20.1758 25.1602 18.5859 21.8086L21.207 19.6602C21.4219 19.4883 21.5938 19.1875 21.5938 18.8438C21.5938 18.7148 21.5508 18.5859 21.5078 18.457L19.4453 13.6445C19.2734 13.2578 18.8867 13 18.457 13C18.4141 13 18.3281 13.043 18.2422 13.043L13.7734 14.0742C13.3008 14.2031 13 14.5898 13 15.0625C13 26.1055 21.8945 35 32.9375 35C33.4102 35 33.7969 34.6992 33.9258 34.2266L34.957 29.7578C34.957 29.6719 34.957 29.5859 34.957 29.543C34.957 29.1133 34.6992 28.7266 34.3555 28.5547Z"/>
+              </svg>
+              <span>800-806-4882</span>
+            </a>
+            <button id="site-menu-btn" aria-label="Main Menu" aria-expanded="false">
+              <svg width="48" height="48" viewBox="0 0 48 48" >
+                <path class="line line1" d="M13 35.6274L35.6274 13C35.6274 13 46 1 46 24C46 34 38 34 38 34H10" />
+                <path class="line line2" d="M10 24H38" />
+                <path class="line line3" d="M13 13L35.6274 35.6274C35.6274 35.6274 46 47 46 24C46 14 38 14 38 14L10 14" />
+              </svg>
+            </button>
+          </div>
         </div>
-        <div class="title-bar-right">
-          <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
-        </div>
+        <ul id="site-menu">
+          <li>
+            <button aria-expanded="false">
+              <span>Who We Are</span>
+              <svg width="24" height="24" viewBox="0 0 48 48">
+                <path class="line line1" d="M10 24H38" />
+                <path class="line line2" d="M10 24C10 24 37 24 38 24C47 24 24 1 24 10.5V37.5" />
+              </svg>
+            </button>
+            <ul>
+              <li>
+                <a href="/who-we-are/mission.html">
+                  Our Mission
+                </a>
+              </li>
+              <li>
+                <a href="/who-we-are/staff.html">
+                  Our Staff
+                </a>
+              </li>
+              <li>
+                <a href="/who-we-are/annual-reports.html">
+                  Annual Reports 
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <button aria-expanded="false">
+              <span>What We Do</span>
+              <svg width="24" height="24" viewBox="0 0 48 48">
+                <path class="line line1" d="M10 24H38" />
+                <path class="line line2" d="M10 24C10 24 37 24 38 24C47 24 24 1 24 10.5V37.5" />
+              </svg>
+            </button>
+            <ul>
+              <li>
+                <a href="/what-we-do/youth-camps.html">
+                  Youth Camps 
+                </a>
+              </li>
+              <li>
+                <a href="/what-we-do/kayak-tours.html">
+                  Kayak Tours
+                </a>
+              </li>
+              <li>
+                <a href="/what-we-do/kayak-classes.html">
+                  Kayak Classes
+                </a>
+              </li>
+              <li>
+                <a href="/what-we-do/free-family-boating.html">
+                  Free Family Boating
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <button aria-expanded="false">
+              <span>Get Involved</span>
+              <svg width="24" height="24" viewBox="0 0 48 48">
+                <path class="line line1" d="M10 24H38" />
+                <path class="line line2" d="M10 24C10 24 37 24 38 24C47 24 24 1 24 10.5V37.5" />
+              </svg>
+            </button>
+            <ul>
+              <li>
+                <a href="/get-involved/donate.html">
+                  Donate
+                </a>
+              </li>
+              <li>
+                <a href="/get-involved/volunteer.html">
+                  Volunteer
+                </a>
+              </li>
+              <li>
+                <a href="/get-involved/jobs.html">
+                  Jobs
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="/contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main">
+      <div class="hero hero-contact">
+        <h1>Contact Us</h1>
+        <a href="#email-us" id="call-to-action" class="btn">Send Us An Email</a>
+        <a href="#email-us" id="fixed-call-to-action" class="btn fixed" hidden>Send Us An Email</a>
       </div>
-    
-      <div class="top-bar" id="responsive-menu">
-        <div class="top-bar-left hide-for-small-only">
-          <a href="/">
-            <img src="/assets/img/obf-logo-full.svg" alt="OBF Logo" width="126" height="38" />
-          </a>
-        </div>
-        <div class="top-bar-right">
-          <ul class="vertical medium-horizontal menu" data-responsive-menu="drilldown medium-dropdown" data-alignment="left">
+      <section>
+        <h2>We'd Love to Hear From You</h2>
+        <p>The perfect adventure for your family vacation at the Oregon Coast. Our guided kayak tours offer an incredible opportunity to get up close and personal with the wildlife, fishing community, and landmarks of Yaquina Bay and the Newport Bayfront.</p>
+        <nav>
+          <ul>
             <li>
-              <a href="/">Home</a>
+              Call us at <a href="tel:+18008064882">(800) 806-4882</a>
             </li>
             <li>
-              <a href="#">Programs</a>
-              <ul class="vertical menu">
-                <li>
-                  <a href="/guided-kayak-tours.html">Guided Kayak Tours</a>
-                </li>
-                <li>
-                  <a href="/youth-camps.html">Youth Camps</a>
-                </li>
-                <li>
-                  <a href="/kayak-classes.html">Kayak Classes</a>
-                </li>
-                <li>
-                  <a href="/free-family-boating.html">Free Family Boating</a>
-                </li>
-              </ul>
+              <a href="mailto:contact@oregonboatingfoundation.org">Send us an email</a>
             </li>
             <li>
-              <a href="#">About Us</a>
-              <ul class="vertical menu">
-                <li>
-                  <a href="/history.html">Our History</a>
-                </li>
-                <li>
-                  <a href="/meet-our-staff.html">Meet Our Staff</a>
-                </li>
-                <li>
-                  <a href="/donate.html">Donate</a>
-                </li>
-                <li>
-                  <a href="/volunteer.html">Volunteer</a>
-                </li>
-                <li>
-                  <a href="/employment.html">Employment</a>
-                </li>
-              </ul>
-            </li>
-            <li class="active">
-              <a href="/contact.html">Contact</a>
+              <strong>Mail:</strong> PO Box 701, Newport, OR 97365</a>
             </li>
           </ul>
-        </div>
-        <div class="top-bar-right text-center">
-          <a href="https://fareharbor.com/embeds/book/oregonboatingfoundation/?full-items=yes" class="button hide-for-small-only">Reservations</a>
-          <a href="https://fareharbor.com/embeds/book/oregonboatingfoundation/?full-items=yes" class="button expanded show-for-small-only">Reservations</a>
-          <span class="show-for-small-only">
-            <a href="tel:+18008064882">(800) 806-4882</a>
-          </span>
-        </div>
-      </div>
-    </div>
-    
-    <div class="page-title">
-      <div class="grid-container">
-        <div class="grid-x grid-margin-x">
-          <div class="cell small-12">
-            <h1>Contact</h1>
-          </div>
-        </div>
-      </div>
-    </div>
-    <section class="section section-about">
-      <div class="grid-container">
-        <div class="grid-x grid-margin-x">
-          <div class="cell small-12">
-            <div class="section-header">
-              <h2>Contact Us</h2>
-            </div>
-            <div class="grid-x grid-margin-x">
-              <div class="cell small-12 medium-6">
-                <div class="card">
-                  <div class="card-section">
-                    <h3>Contact Info</h3>
-                    <p><a href="mailto:contact@oregonboatingfoundation.org">
-      contact@oregonboatingfoundation.org
-    </a>
-    </p>
-                    <ul>
-                      <li><strong>Phone:</strong> +1 <a href="tel:+18008064882">(800) 806-4882</a>
-    </li>
-                      <li><strong>Mail:</strong> PO Box 701, Newport, OR 97365</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="card hide-for-small-only">
-                  <div class="card-section">
-                    <h3>Location</h3>
-                    <div id="contact-map" class="map"></div>
-                  </div>
-                </div>
-                <div class="card hide-for-small-only">
-                  <div class="card-section">
-                    <h3>Staff</h3>
-                    <p>If you need to contact a member of our staff:</p>
-                    <ul>
-                      <li>
-                        <strong>Executive Director:</strong>
-                        <a href="mailto:director@oregonboatingfoundation.org"
-                          >Brian Getting</a
-                        >
-                      </li>
-                      <li>
-                        <strong>Kayak Program Coordinator:</strong>
-                        <a href="mailto:tom@oregonboatingfoundation.org"
-                          >Tom Murphy</a
-                        >
-                      </li>
-                      <li>
-                        <strong>Sailing Program Coordinator:</strong>
-                        <a href="mailto:alberg.landon@gmail.com">Landon Reno</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="card hide-for-small-only">
-                  <div class="card-section">
-                    <h3>Board of Directors</h3>
-                    <p>If you need to contact someone on our board:</p>
-                    <ul>
-                      <li>
-                        <strong>President:</strong>
-                        <a href="mailto:dan@oregonboatingfoundation.org"
-                          >Dan Van Calcar</a
-                        >
-                      </li>
-                      <li>
-                        <strong>Vice President:</strong>
-                        <a href="mailto:bud@oregonboatingfoundation.org"
-                          >Bud Shoemake</a
-                        >
-                      </li>
-                      <li>
-                        <strong>Secretary:</strong>
-                        <a href="mailto:jennie@oregonboatingfoundation.org"
-                          >Jennie Scarborough</a
-                        >
-                      </li>
-                      <li>
-                        <strong>Treasurer:</strong>
-                        <a href="mailto:amy@oregonboatingfoundation.org"
-                          >Amy Greer</a
-                        >
-                      </li>
-                      <li>
-                        <a href="mailto:aja@oregonboatingfoundation.org"
-                          >Aja Burke</a
-                        >
-                      </li>
-                      <li>
-                        <a href="mailto:jason.king@oregonboatingfoundation.org"
-                          >Jason King</a
-                        >
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="cell small-12 medium-6">
-                <div class="card">
-                  <div class="card-section" id="contact-form">
-                    <div class="cognito"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section section-tan section-programs">
-      <div class="grid-container">
-        <div class="grid-x grid-margin-x" data-equalizer data-equalize-on="medium">
-          <div class="cell small-12 large-10 large-offset-1 text-center">
-            <div class="section-header">
-              <h2>Programs</h2>
-              <p>Our programs are designed to get you out on the water, and teach the skills you need to stay safe.</p>
-            </div>
-          </div>
-          <div class="cell small-12 medium-6 large-3 text-center">
-            <div class="card" data-equalizer-watch>
-              <div class="card-image">
-                <a href="/guided-kayak-tours.html">
-                  <img src="/assets/img/slides/guided-tours-2.jpg" alt="Yaquina Bay Bridge">
-                  <span class="show-for-small-only">Guided Kayak Tours</span>
-                </a>
-              </div>
-              <div class="card-section hide-for-small-only">
-                <h3>Guided Kayak Tours</h3>
-                <p>Learn about Newport's fishing fleet, landmarks, wildlife and natural history in these unique two-hour tours as we explore Yaquina Bay.</p>
-                <a href="/guided-kayak-tours.html" class="hollow button ">Learn More</a>
-              </div>
-            </div>
-          </div>
-          <div class="cell small-12 medium-6 large-3 text-center">
-            <div class="card" data-equalizer-watch>
-              <div class="card-image">
-                <a href="/youth-camps.html">
-                  <img src="/assets/img/slides/youth-camps.jpg" alt="Youth Campers">
-                  <span class="show-for-small-only">Youth Camps</span>
-                </a>
-              </div>
-              <div class="card-section hide-for-small-only">
-                <h3>Youth Camps</h3>
-                <p>Designed for youth between the ages of 10 and 18, our five-day youth sailing and kayaking day camps are affordable and fun.</p>
-                <a href="/youth-camps.html" class="hollow button ">Learn More</a>
-              </div>
-            </div>
-          </div>
-          <div class="cell small-12 medium-6 large-3 text-center">
-            <div class="card" data-equalizer-watch>
-              <div class="card-image">
-                <a href="/kayak-classes.html">
-                  <img src="/assets/img/slides/guided-tours-7.jpg" alt="Sea Kayak Instructor">
-                  <span class="show-for-small-only">Sea Kayak Classes</span>
-                </a>
-              </div>
-              <div class="card-section hide-for-small-only">
-                <h3>Sea Kayak Classes</h3>
-                <p>Our one-day sea kayak classes – primarily for adults – help build the skills you need to confidently enjoy kayaking on your own.</p>
-                <a href="/kayak-classes.html" class="hollow button ">Learn More</a>
-              </div>
-            </div>
-          </div>
-          <div class="cell small-12 medium-6 large-3 text-center">
-            <div class="card" data-equalizer-watch>
-              <div class="card-image">
-                <a href="/free-family-boating.html">
-                  <img src="/assets/img/slides/free-family-boating-1.jpg" alt="Young Sailors">
-                  <span class="show-for-small-only">Free Family Boating</span>
-                </a>
-              </div>
-              <div class="card-section hide-for-small-only">
-                <h3>Free Family Boating</h3>
-                <p>Free weekly events – run by the Port of Toledo – where your whole family can try boating in a safe and supervised environment.</p>
-                <a href="/free-family-boating.html" class="hollow button ">Learn More</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section section-reviews">
-      <div class="section-header text-center">
-        <h2>Reviews</h2>
-      </div>
-      <div
-        class="orbit"
-        role="region"
-        aria-label="Customer Reviews"
-        data-orbit
-        data-timer-delay="10000"
-      >
-        <div class="orbit-wrapper">
-          <ul class="orbit-container">
-            <li class="is-active orbit-slide">
-              <div class="grid-container">
-                <div class="grid-x grid-margin-x">
-                  <div class="cell small-12 medium-6">
-                    <div class="media-object">
-                      <div class="media-object-section middle">
-                        <div class="thumbnail">
-                          <img
-                            src="/assets/img/reviewers/wendy-peone.jpg"
-                            height="65"
-                            width="65"
-                            alt="Wendy Peone"
-                          />
-                        </div>
-                      </div>
-                      <div class="media-object-section">
-                        <blockquote>
-                          <header>
-                            <h3>Favorite Experience in Newport!</h3>
-                          </header>
-                          <div class="review-rating">
-                            <i class="fi-star"></i>
-                            <i class="fi-star"></i>
-                            <i class="fi-star"></i>
-                            <i class="fi-star"></i>
-                            <i class="fi-star"></i>
-                          </div>
-                          <p>
-                            We've been visiting Newport for years, but the kayak
-                            tour definitely topped the list as THE FAVORITE
-                            experience we've ever had. Chessie and Brian guided us
-                            with a relaxed and easy manner. We'd never kayaked
-                            before, but we are going to take up a new hobby. If you
-                            get a chance to do this, do it!! You won't regret it!
-                          </p>
-                          <footer>
-                            <cite>
-                              <a
-                                href="https://www.facebook.com/wendy.peone/posts/2520568241315796"
-                                target="_blank"
-                                >Wendy Peone</a
-                              >
-                            </cite>
-                          </footer>
-                        </blockquote>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="cell hide-for-small-only medium-6">
-                    <div class="media-object">
-                      <div class="media-object-section middle">
-                        <div class="thumbnail">
-                          <img
-                            src="https://a0.muscache.com/im/users/41624594/profile_pic/1439741040/original.jpg?aki_policy=profile_x_medium"
-                            height="65"
-                            width="65"
-                            alt="Kelly"
-                          />
-                        </div>
-                      </div>
-                      <div class="media-object-section">
-                        <blockquote>
-                          <header>
-                            <h3>Awesome!</h3>
-                          </header>
-                          <div class="review-rating">
-                            <i class="fi-star"></i>
-                            <i class="fi-star"></i>
-                            <i class="fi-star"></i>
-                            <i class="fi-star"></i>
-                            <i class="fi-star"></i>
-                          </div>
-                          <p>
-                            Our kayaking adventure was awesome! The loading 'docks'
-                            for the kayaks made getting in and out so easy. The
-                            instructions were great on how to kayak and they had all
-                            the equipment you needed to stay dry if you wanted.
-                            Great views and information passed along as we went.
-                            Loved it!
-                          </p>
-                          <footer>
-                            <cite>
-                              <a
-                                href="https://www.airbnb.com/experiences/958107#Section12"
-                                target="_blank"
-                                >Kelly</a
-                              >
-                            </cite>
-                          </footer>
-                        </blockquote>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li class="orbit-slide">
-              <div class="grid-container">
-                <div class="grid-x grid-margin-x">
-                  <div class="cell small-12 medium-6">
-                    <div class="media-object">
-                      <div class="media-object-section middle">
-                        <div class="thumbnail">
-                          <img
-                            src="/assets/img/reviewers/jess-thomas.jpg"
-                            height="65"
-                            width="65"
-                            alt="Jess Thomas"
-                          />
-                        </div>
-                      </div>
-                      <div class="media-object-section">
-                        <blockquote>
-                          <header>
-                            <h3>Amazing Opportunity!</h3>
-                          </header>
-                          <div class="review-rating">
-                            <i class="fi-star"></i>
-                            <i class="fi-star"></i>
-                            <i class="fi-star"></i>
-                            <i class="fi-star"></i>
-                            <i class="fi-star"></i>
-                          </div>
-                          <p>
-                            We live in a small town, and I had no idea my children
-                            would be able to have experiences that people in larger
-                            cities dream of having. They have had knowledgeable and
-                            kind instructors. I have never worried about my children
-                            when they were in the care of OBF instructors. Thanks
-                            for this incredible opportunity!
-                          </p>
-                          <footer>
-                            <cite>Cindy Thomas</cite>
-                          </footer>
-                        </blockquote>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="cell hide-for-small-only medium-6">
-                    <div class="media-object">
-                      <div class="media-object-section middle">
-                        <div class="thumbnail">
-                          <img
-                            src="/assets/img/reviewers/michelle-schaffer.jpg"
-                            height="65"
-                            width="65"
-                            alt="Michelle Schaffer"
-                          />
-                        </div>
-                      </div>
-                      <div class="media-object-section">
-                        <blockquote>
-                          <header>
-                            <h3>Incredible Program!</h3>
-                          </header>
-                          <div class="review-rating">
-                            <i class="fi-star"></i>
-                            <i class="fi-star"></i>
-                            <i class="fi-star"></i>
-                            <i class="fi-star"></i>
-                            <i class="fi-star"></i>
-                          </div>
-                          <p>
-                            My son has not only learned skills to last him a
-                            lifetime but he has had fun doing it. He has made
-                            lasting friendships, developed confidence on the water
-                            and most importantly knows how to be safe. There is no
-                            better place to learn to sail or kayak and no better
-                            people to do it with!
-                          </p>
-                          <footer>
-                            <cite>Michelle Schaffer</cite>
-                          </footer>
-                        </blockquote>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li class="orbit-slide">
-              <div class="grid-container">
-                <div class="grid-x grid-margin-x">
-                  <div class="cell small-12 medium-6">
-                    <div class="media-object">
-                      <div class="media-object-section middle">
-                        <div class="thumbnail">
-                          <img
-                            src="/assets/img/reviewers/kristina.jpg"
-                            height="65"
-                            width="65"
-                            alt="Kristina"
-                          />
-                        </div>
-                      </div>
-                      <div class="media-object-section">
-                        <blockquote>
-                          <header>
-                            <h3>Top Notch!</h3>
-                          </header>
-                          <div class="review-rating">
-                            <i class="fi-star"></i>
-                            <i class="fi-star"></i>
-                            <i class="fi-star"></i>
-                            <i class="fi-star"></i>
-                          </div>
-                          <p>
-                            The equipment and introduction with check-in were top
-                            notch. Thank you for the experience and education on the
-                            various fishing boats and styles of the Newport harbor
-                            and the Yaquina Bay.
-                          </p>
-                          <footer>
-                            <cite>
-                              <a
-                                href="https://www.airbnb.com/experiences/958107#Section12"
-                                target="_blank"
-                                >Kristina</a
-                              >
-                            </cite>
-                          </footer>
-                        </blockquote>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="cell hide-for-small-only medium-6">
-                    <div class="media-object">
-                      <div class="media-object-section middle">
-                        <div class="thumbnail">
-                          <img
-                            src="https://a0.muscache.com/im/pictures/user/0257c788-383e-43fb-8e80-bed467ac475c.jpg?aki_policy=profile_x_medium"
-                            height="65"
-                            width="65"
-                            alt="Julianne"
-                          />
-                        </div>
-                      </div>
-                      <div class="media-object-section">
-                        <blockquote>
-                          <header>
-                            <h3>I Felt Like a Star!</h3>
-                          </header>
-                          <div class="review-rating">
-                            <i class="fi-star"></i>
-                            <i class="fi-star"></i>
-                            <i class="fi-star"></i>
-                            <i class="fi-star"></i>
-                            <i class="fi-star"></i>
-                          </div>
-                          <p>
-                            I've only kayaked once before, but this experience has
-                            me hooked! We saw baby jelly fish, all sorts of diving
-                            birds, and Yaaaaassss Sea Lions!! They were out sun
-                            bathing, barking, and being generally adorable!! I
-                            couldn't believe how close we got! I felt like a star!
-                          </p>
-                          <footer>
-                            <cite>
-                              <a
-                                href="https://www.airbnb.com/experiences/958107#Section12"
-                                target="_blank"
-                                >Julianne</a
-                              >
-                            </cite>
-                          </footer>
-                        </blockquote>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li class="orbit-slide">
-              <div class="grid-container">
-                <div class="grid-x grid-margin-x">
-                  <div class="cell small-12 medium-6">
-                    <div class="media-object">
-                      <div class="media-object-section middle">
-                        <div class="thumbnail">
-                          <img
-                            src="https://lh5.googleusercontent.com/-3Stcuv5RTYk/AAAAAAAAAAI/AAAAAAAAAAA/nUZJRIAZKJI/w120-h120-p-rp-mo-br100/photo.jpg"
-                            height="65"
-                            width="65"
-                            alt="Andrea Langeliers"
-                          />
-                        </div>
-                      </div>
-                      <div class="media-object-section">
-                        <blockquote>
-                          <header>
-                            <h3>Knowledgeable &amp; Friendly!</h3>
-                          </header>
-                          <div class="review-rating">
-                            <i class="fi-star"></i>
-                            <i class="fi-star"></i>
-                            <i class="fi-star"></i>
-                            <i class="fi-star"></i>
-                            <i class="fi-star"></i>
-                          </div>
-                          <p>
-                            We had a wonderful time with Anya exploring Newport by
-                            water! Earlier is better because the wind often picks up
-                            in the afternoons! We live in Newport so having an
-                            activity in town was really awesome!
-                          </p>
-                          <footer>
-                            <cite>
-                              <a
-                                href="https://goo.gl/maps/HiPQiM89sMmWwSzS6"
-                                target="_blank"
-                                >Andrea Langeliers</a
-                              >
-                            </cite>
-                          </footer>
-                        </blockquote>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="cell hide-for-small-only medium-6">
-                    <div class="media-object">
-                      <div class="media-object-section middle">
-                        <div class="thumbnail">
-                          <img
-                            src="https://media-cdn.tripadvisor.com/media/photo-l/14/bb/47/0e/barbara-h.jpg"
-                            height="65"
-                            width="65"
-                            alt="Barbara H"
-                          />
-                        </div>
-                      </div>
-                      <div class="media-object-section">
-                        <blockquote>
-                          <header>
-                            <h3>Nice Job!</h3>
-                          </header>
-                          <div class="review-rating">
-                            <i class="fi-star"></i>
-                            <i class="fi-star"></i>
-                            <i class="fi-star"></i>
-                            <i class="fi-star"></i>
-                            <i class="fi-star"></i>
-                          </div>
-                          <p>
-                            Friendly staff, went out with just one other couple who
-                            had never kayaked. Guide was very helpful to them. Gave
-                            a good narrative of some of the local buildings and
-                            boats. They supplied waterproof pants and tops if
-                            needed.
-                          </p>
-                          <footer>
-                            <cite>
-                              <a
-                                href="https://www.tripadvisor.com/ShowUserReviews-g51992-d17821475-r698730005-Oregon_Boating_Foundation-Newport_Oregon.html"
-                                target="_blank"
-                                >Barbara H</a
-                              >
-                            </cite>
-                          </footer>
-                        </blockquote>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li>
-    
-            <li class="orbit-slide">
-              <div class="grid-container">
-                <div class="grid-x grid-margin-x">
-                  <div class="cell small-12 medium-6">
-                    <div class="media-object">
-                      <div class="media-object-section middle">
-                        <div class="thumbnail">
-                          <img
-                            src="/assets/img/reviewers/ty-tabor.jpg"
-                            height="65"
-                            width="65"
-                            alt="Ty Tabor"
-                          />
-                        </div>
-                      </div>
-                      <div class="media-object-section">
-                        <blockquote>
-                          <header>
-                            <h3>Excellent!</h3>
-                          </header>
-                          <div class="review-rating">
-                            <i class="fi-star"></i>
-                            <i class="fi-star"></i>
-                            <i class="fi-star"></i>
-                            <i class="fi-star"></i>
-                            <i class="fi-star"></i>
-                          </div>
-                          <p>
-                            I completed two sea kayak classes in 2017, and plan to
-                            attend another in 2018. I highly recommend the Oregon
-                            Boating Foundation, and my instructor Tom Murphy. You
-                            will be knowledgeable, confident, and competent when
-                            you're done.
-                          </p>
-                          <footer>
-                            <cite>Ty Tabor</cite>
-                          </footer>
-                        </blockquote>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="cell hide-for-small-only medium-6">
-                    <div class="media-object">
-                      <div class="media-object-section middle">
-                        <div class="thumbnail">
-                          <img
-                            src="/assets/img/reviewers/jason-yoshimi.jpg"
-                            height="65"
-                            width="65"
-                            alt="Jason & Yoshimi Tomono-Duval"
-                          />
-                        </div>
-                      </div>
-                      <div class="media-object-section">
-                        <blockquote>
-                          <header>
-                            <h3>Fun &amp; Informative!</h3>
-                          </header>
-                          <div class="review-rating">
-                            <i class="fi-star"></i>
-                            <i class="fi-star"></i>
-                            <i class="fi-star"></i>
-                            <i class="fi-star"></i>
-                            <i class="fi-star"></i>
-                          </div>
-                          <p>
-                            Just prepare&hellip; these instructors will transfer
-                            their life-long love of water sport into your kids'
-                            mind! They are also seriously helpful for age
-                            appropriate skill development.
-                          </p>
-                          <footer>
-                            <cite>Jason &amp; Yoshimi Tomono-Duval</cite>
-                          </footer>
-                        </blockquote>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-        <nav class="orbit-bullets">
-          <button class="is-active" data-slide="0">
-            <span class="show-for-sr">First Slide</span>
-            <span class="show-for-sr">Current Slide</span>
-          </button>
-          <button data-slide="1">
-            <span class="show-for-sr">Second Slide</span>
-          </button>
-          <button data-slide="2">
-            <span class="show-for-sr">Third Slide</span>
-          </button>
-          <button data-slide="3">
-            <span class="show-for-sr">Fourth Slide</span>
-          </button>
-          <button data-slide="4">
-            <span class="show-for-sr">Fifth Slide</span>
-          </button>
         </nav>
+      </section>
+      <section id="email-us">
+        <div id="cognito-form" class="cognito"></div>
+      </section>
+    </main>
+    <aside class="aside">
+      <div class="container">
+        <h2>Why Us?</h2>
+        <p>We introduce adventurers to kayaking and sailing through meticulously planned education programs.</p>
+        <ul>
+          <li class="safety">
+            <h3>Safety</h3>
+            <p>Safety is at the core of everything we do.</p>
+          </li>
+          <li class="affordable">
+            <h3>Affordability</h3>
+            <p>Scholarships are available for those who need them.</p>
+          </li>
+          <li class="accessible">
+            <h3>Accessibility</h3>
+            <p>We'll make every effort to ensure anyone can participate.</p>
+          </li>
+          <li class="staff">
+            <h3>Our Staff</h3>
+            <p>Committed to making sure you have a great experience.</p>
+          </li>
+        </ul>
       </div>
-    </section>
-    
-    <section class="section section-tan section-newsletter">
-      <div class="grid-container">
-        <div class="grid-x grid-margin-x">
-          <div class="cell small-12 text-center">
-            <div class="section-header">
-              <h2><span class="hide-for-small-only">Subscribe to our newsletter. </span>Get monthly updates.</h2>
-              <button class="secondary button large" data-open="newsletter-modal">
-                Subscribe
-                <i class="fi-mail"></i>
-              </button>
+    </aside>
+    <div id="newsletter">
+      <div class="container">
+        <h2>Join Our Newsletter</h2>
+        <p>Want to stay informed? Occasionally we send out special offers and information.</p>
+        <form action="https://oregonboatingfoundation.us10.list-manage.com/subscribe/post?u=40dfdd53f4c8e0ee70de78d07&amp;id=c38a70f93f" method="post" id="newsletter-form" target="_blank">
+          <div class="form-inputs">
+            <div class="form-group">
+              <label for="mce-FNAME">First Name:</label>
+              <input type="text" name="FNAME" id="mce-FNAME" required autocomplete="given-name" />
+            </div>
+            <div class="form-group">
+              <label for="mce-LNAME">Last Name:</label>
+              <input type="text" name="LNAME" id="mce-LNAME" required autocomplete="family-name" />
+            </div>
+            <div class="form-group">
+              <label for="mce-EMAIL">Email:</label>
+              <input type="email" name="EMAIL" id="mce-EMAIL" required autocomplete="email" />
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-    
-    <div class="reveal" id="newsletter-modal" data-reveal>
-      <div id="mc_embed_signup">
-        <form action="https://oregonboatingfoundation.us10.list-manage.com/subscribe/post?u=40dfdd53f4c8e0ee70de78d07&amp;id=c38a70f93f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-          <div id="mc_embed_signup_scroll">
-            <div class="grid-x grid-margin-x">
-              <div class="cell small-12">
-                <h2>Subscribe Now!</h2>
-                <p>Join our newsletter to get monthly updates, notifications about upcoming events, and the occasional special offer.</p>
-              </div>
-              <div class="cell small-12">
-                <div class="mc-field-group">
-                	<label for="mce-EMAIL">
-                    Email Address<span class="asterisk">*</span>
-                  </label>
-                	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-                </div>
-              </div>
-              <div class="cell small-6">
-                <div class="mc-field-group">
-                	<label for="mce-FNAME">First Name</label>
-                	<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
-                </div>
-              </div>
-              <div class="cell small-6">
-                <div class="mc-field-group">
-                	<label for="mce-LNAME">Last Name</label>
-                	<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
-                </div>
-              </div>
-              <div class="cell small-12">
-              	<div id="mce-responses" class="clear">
-              		<div class="callout alert response" id="mce-error-response" style="display:none"></div>
-              		<div class="callout success response" id="mce-success-response" style="display:none"></div>
-              	</div>
-              </div>
-              <div class="cell small-12">
-                <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                  <input type="text" name="b_40dfdd53f4c8e0ee70de78d07_c38a70f93f" tabindex="-1" value="">
-                </div>
-                <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="button">Subscribe</button>
-              </div>
-            </div>
+          <div hidden aria-hidden="true">
+            <input type="text" name="b_40dfdd53f4c8e0ee70de78d07_c38a70f93f" tabindex="-1" value="">
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn">
+              Subscribe
+            </button>
           </div>
         </form>
       </div>
-      <button class="close-button" data-close aria-label="Close modal" type="button">
-        <span aria-hidden="true">&times;</span>
-      </button>
     </div>
-    <footer class="section section-footer">
-      <div class="hide-for-small-only">
-        <div class="grid-container">
-          <div class="grid-x grid-margin-x">
-            <div class="cell medium-3">
-              <h3>Programs</h3>
-              <ul>
-                <li>
-                  <a href="/guided-kayak-tours.html">
-                    Guided Kayak Tours
-                  </a>
-                </li>
-                <li>
-                  <a href="/youth-camps.html">
-                    Youth Camps
-                  </a>
-                </li>
-                <li>
-                  <a href="/kayak-classes.html">
-                    Kayak Classes
-                  </a>
-                </li>
-                <li>
-                  <a href="/free-family-boating.html">
-                    Free Family Boating
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div class="cell medium-3">
-              <h3>About Us</h3>
-              <ul>
-                <li>
-                  <a href="/history.html">
-                    Our History
-                  </a>
-                </li>
-                <li>
-                  <a href="/meet-our-staff.html">
-                    Meet Our Staff
-                  </a>
-                </li>
-                <li>
-                  <a href="/contact.html">
-                    Contact Us
-                  </a>
-                </li>
-                <li>
-                  <a href="/refunds.html">
-                    Refund Policy
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div class="cell medium-3">
-              <h3>Get Involved</h3>
-              <ul>
-                <li>
-                  <a href="/donate.html">
-                    Make A Donation
-                  </a>
-                </li>
-                <li>
-                  <a href="/volunteer.html">
-                    Volunteer
-                  </a>
-                </li>
-                <li>
-                  <a href="/employment.html">
-                    Employment
-                  </a>
-                </li>
-                <li>
-                  <a href="#" data-open="newsletter-modal">
-                    Join Our Newsletter
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div class="cell medium-3 text-right">
-              <a
-                href="https://fareharbor.com/embeds/book/oregonboatingfoundation/?full-items=yes"
-                class="large primary button"
-              >
-                Reservations
-              </a>
-            </div>
+    <div id="cookies">
+      <div>
+        <h2>We Use Cookies! 🍪</h2>
+        <p>We use cookies to provide you with the best online experience. By using this site, you agree to our <a href="/policies/cookies.html">cookie policy</a>.</p>
+      </div>
+      <div>
+        <button class="btn" id="cookie-btn">Got It!</button>
+      </div>
+    </div>
+    <footer id="footer">
+      <div class="container">
+        <div class="footer-links">
+          <div>
+            <h2>Who We Are</h2>
+            <ul>
+              <li>
+                <a href="/who-we-are/mission.html">
+                  Our Mission
+                </a>
+              </li>
+              <li>
+                <a href="/who-we-are/staff.html">
+                  Our Staff
+                </a>
+              </li>
+              <li>
+                <a href="/who-we-are/annual-reports.html">
+                  Annual Reports 
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h2>What We Do</h2>
+            <ul>
+              <li>
+                <a href="/what-we-do/youth-camps.html">
+                  Youth Camps 
+                </a>
+              </li>
+              <li>
+                <a href="/what-we-do/kayak-tours.html">
+                  Kayak Tours
+                </a>
+              </li>
+              <li>
+                <a href="/what-we-do/kayak-classes.html">
+                  Kayak Classes
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h2>Get Involved</h2>
+            <ul>
+              <li>
+                <a href="/get-involved/donate.html">
+                  Donate
+                </a>
+              </li>
+              <li>
+                <a href="/get-involved/volunteer.html">
+                  Volunteer
+                </a>
+              </li>
+              <li>
+                <a href="/get-involved/jobs.html">
+                  Jobs
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h2>Policies</h2>
+            <ul>
+              <li>
+                <a href="/policies/privacy.html">
+                  Privacy Policy
+                </a>
+              </li>
+              <li>
+                <a href="/policies/terms.html">
+                  Terms of Service
+                </a>
+              </li>
+              <li>
+                <a href="/policies/refunds.html">
+                  Refunds
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
-      </div>
-      <div class="footer-contact">
-        <div class="grid-container">
-          <div class="grid-x grid-margin-x">
-            <div class="cell small-12 medium-6">
-              <p>
-                +1 <a href="tel:+18008064882">(800) 806-4882</a>
-     &nbsp;&nbsp;&middot;&nbsp;&nbsp; <a href="mailto:contact@oregonboatingfoundation.org">
-      contact@oregonboatingfoundation.org
-    </a>
-    <br />
-                PO Box 701, Newport, Oregon 97365
-              </p>
-              <p>
-                <a href="/privacy.html">Privacy Policy</a>
-                &nbsp;&nbsp;&middot;&nbsp;&nbsp;
-                <a href="/terms.html">Terms of Service</a>
-              </p>
-            </div>
-            <div class="cell small-12 medium-6 medium-text-right">
-              <ul class="footer-socials">
-                <li>
-                  <a
-                    href="https://www.instagram.com/oregonboating/"
-                    target="_blank"
-                  >
-                    <i class="fi-social-instagram"></i>
-                    <span class="show-for-sr">Instagram</span>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.facebook.com/OregonBoatingFoundation"
-                    target="_blank"
-                  >
-                    <i class="fi-social-facebook"></i>
-                    <span class="show-for-sr">Facebook</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://twitter.com/oregonboating" target="_blank">
-                    <i class="fi-social-twitter"></i>
-                    <span class="show-for-sr">Twitter</span>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.yelp.com/biz/oregon-boating-foundation-newport"
-                    target="_blank"
-                  >
-                    <i class="fi-social-yelp"></i>
-                    <span class="show-for-sr">Yelp</span>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.linkedin.com/company/oregon-boating-foundation/"
-                    target="_blank"
-                  >
-                    <i class="fi-social-linkedin"></i>
-                    <span class="show-for-sr">LinkedIn</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
+        <div class="social-links">
+          <ul>
+            <li>
+              <a href="https://www.instagram.com/oregonboating/" target="blank" rel="noreferrer">
+                <img src="/images/assets/instagram.svg" width="24" height="24" alt="Instagram">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/OregonBoatingFoundation" target="blank" rel="noreferrer">
+                <img src="/images/assets/facebook.svg" width="24" height="24" alt="Facebook">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.yelp.com/biz/oregon-boating-foundation-newport" target="blank" rel="noreferrer">
+                <img src="/images/assets/yelp.svg" width="24" height="24" alt="Yelp">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.tripadvisor.com/Attraction_Review-g51992-d17821475-Reviews-Oregon_Boating_Foundation-Newport_Oregon.html" target="blank" rel="noreferrer">
+                <img src="/images/assets/tripadvisor.svg" width="24" height="24" alt="TripAdvisor">
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/oregonboating" target="blank" rel="noreferrer">
+                <img src="/images/assets/twitter.svg" width="24" height="24" alt="Twitter">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/company/oregon-boating-foundation/" target="blank" rel="noreferrer">
+                <img src="/images/assets/linked-in.svg" width="24" height="24" alt="LinkedIn">
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="copyright">
+          Copyright &copy; <span class="current-year">2021</span> Oregon Boating Foundation. All Rights Reserved.
         </div>
       </div>
     </footer>
-    <script src="/assets/js/app.js"></script>
-    <script src="https://services.cognitoforms.com/s/GoLa2BN0TUm2fGkTwmkCXg"></script>
-    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSYfTmZCOa9S-eCBlQo6tg183nUTLl_58">
-    </script>
-    <script src="https://fareharbor.com/embeds/api/v1/?autolightframe=yes"></script>
-    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/40dfdd53f4c8e0ee70de78d07/2620e6ce94417e786b5038e54.js");</script>
+    <script type="text/javascript" src="/js/application.js"></script>
+    <script type="text/javascript" src="https://services.cognitoforms.com/s/GoLa2BN0Tum2fGkTwmkCXg"></script>
   </body>
 </html>
