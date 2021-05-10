@@ -320,7 +320,7 @@ a[target]:after {
 
 #cookies a:hover,
 #cookies a:focus{
-  color: orange;
+  color: #FFA500;
   text-decoration: none;
 }
 
@@ -542,13 +542,45 @@ a[target]:after {
   margin-top: 1em;
 }
 
+.cognito .c-required .c-label:after {
+  color: #FFA500 !important;
+}
+
+.cognito .c-forms-form > .c-forms-form-body .c-field.c-required .c-label:after,
+.cognito .c-forms-form > .c-forms-form-body .c-rating-scale.c-required .c-choice-question:after {
+  margin-left: 0 !important;
+}
+
+.cognito .c-forms-form .c-validation,
+.cognito .c-forms-form .c-error:after,
+.cognito .c-forms-form .c-error .toggle-on:after,
+.cognito .c-forms-form .c-validation-icon {
+  background-color: #FFF5E0 !important;
+  color: #231f20 !important;
+  font-family: 'Source Sans Pro', 'Gill Sans', sans-serif !important;
+  font-size: 0.75em !important;
+}
+
+.cognito .c-validation {
+  background: #FFF5E0 !important;
+  line-height: 1.5em !important;
+  margin: 0 !important;
+  padding: 0.25em 0.5em !important;
+}
+
 .form-group:not(:last-child),
 .form-inputs {
   margin-bottom: 1em;
 }
 
 .form-group input[type="email"],
-.form-group input[type="text"] {
+.form-group input[type="text"],
+.cognito INPUT[type=text],
+.cognito INPUT[type=password],
+.cognito INPUT[type=email],
+.cognito INPUT[type=tel],
+.cognito INPUT[type=url],
+.cognito textarea {
   border: 1px solid #231f20;
   font-size: 1em;
   line-height: 1em;

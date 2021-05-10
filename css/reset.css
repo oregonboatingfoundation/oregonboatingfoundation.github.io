@@ -56,7 +56,7 @@ input, button, textarea, select {
 
 /* Focus styles */
 *:focus {
-  outline: 3px solid orange;
+  outline: 3px solid #FFA500;
 }
 
 /* Remove underlines from abbreviations */
