@@ -69,20 +69,22 @@ function isMobile() {
 function positionCTAButton() {
   var ctaButton = document.querySelector("#call-to-action");
   var fixedButton = document.querySelector('#fixed-call-to-action');
-  if ('IntersectionObserver' in window) {
-    var observer = new IntersectionObserver(function(entries) {
-      fixedButton.hidden = entries[0].isIntersecting;
-    }, { threshold: [1] });
-    observer.observe(ctaButton);
-  } else {
-    var bounding = ctaButton.getBoundingClientRect();
-    var isInViewport = (
-      bounding.top >= 0 &&
-      bounding.left >= 0 &&
-      bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-      bounding.right <= (window.innerWidth || document.documentElement.clientWidth)
-    );
-    fixedButton.hidden = isInViewport;
+  if (ctaButton && fixedButton) {
+    if ('IntersectionObserver' in window) {
+      var observer = new IntersectionObserver(function(entries) {
+        fixedButton.hidden = entries[0].isIntersecting;
+      }, { threshold: [1] });
+      observer.observe(ctaButton);
+    } else {
+      var bounding = ctaButton.getBoundingClientRect();
+      var isInViewport = (
+        bounding.top >= 0 &&
+        bounding.left >= 0 &&
+        bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+        bounding.right <= (window.innerWidth || document.documentElement.clientWidth)
+      );
+      fixedButton.hidden = isInViewport;
+    }
   }
 }
 
