@@ -952,7 +952,7 @@ a[target]:after {
     width: fit-content;
   }
 
-  .hero .fixed {
+  .btn.fixed {
     font-size: 110%;
     padding: 1em;
   }
