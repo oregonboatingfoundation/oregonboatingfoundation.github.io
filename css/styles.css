@@ -370,7 +370,7 @@ a[target]:after {
   padding: 1em 1em 4em;
 }
 
-#footer .container > div + div {
+#footer .container > div {
   margin-top: 1em;
 }
 
@@ -917,7 +917,7 @@ a[target]:after {
     padding: 1.5em 1.5em 5em;
   }
 
-  #footer .container > div + div {
+  #footer .container > div {
     margin-top: 1.5em;
   }
 
