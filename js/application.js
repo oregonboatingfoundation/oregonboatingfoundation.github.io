@@ -1,6 +1,7 @@
 var mobileListeners = false;
 
 function setup() {
+  addConsoleWarning();
   detectWebpSupport();
   positionCTAButton();
   setupButtonObserver();
@@ -9,6 +10,14 @@ function setup() {
   setupCurrentYear();
   if (isMobile()) { setupMobileNav(); }
   setupResizeObserver();
+}
+
+function addConsoleWarning() {
+  var warningTitleCSS = 'color:red; font-size:48px; font-weight: bold; -webkit-text-stroke: 1px black;';
+  var warningDescriptionCSS = 'font-size: 16px;';
+  console.log('%cStop!', warningTitleCSS);
+  console.log("%cThis is a browser feature intended for developers. Mucking around in the console may be a violation of our Terms of Service.", warningDescriptionCSS);
+  console.log('%cSee https://oregonboatingfoundation.org/policies/terms.html for more information.', warningDescriptionCSS);
 }
 
 function detectWebpSupport() {
