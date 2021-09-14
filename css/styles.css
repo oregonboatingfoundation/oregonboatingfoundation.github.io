@@ -21,6 +21,7 @@ a[href] {
 a[href]:hover,
 a[href]:focus {
   color: #2087C8;
+  text-decoration-color: #2087C8;
 }
 
 a[target]:after {
