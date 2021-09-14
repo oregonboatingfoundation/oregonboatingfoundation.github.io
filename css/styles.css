@@ -264,6 +264,11 @@ a[target]:after {
   margin-left: 1em;
 }
 
+#main section ol {
+  list-style: decimal;
+  margin-left: 1em;
+}
+
 #newsletter {
   background-color: #C0B8A9;
   padding: 1em;
@@ -670,6 +675,15 @@ a[target]:after {
   background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/beginner-kayak-camp.webp);
 }
 
+.no-js .hero-board,
+.no-webp .hero-board {
+  background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/board.jpg);
+}
+
+.webp .hero-board {
+  background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/board.webp);
+}
+
 .no-js .hero-contact,
 .no-webp .hero-contact {
   background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/contact.jpg);
@@ -724,6 +738,15 @@ a[target]:after {
   background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/jobs.webp);
 }
 
+.no-js .hero-join-board,
+.no-webp .hero-join-board {
+  background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/join-our-board.jpg);
+}
+
+.webp .hero-join-board {
+  background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/join-our-board.webp);
+}
+
 .no-js .hero-kayak-class,
 .no-webp .hero-kayak-class {
   background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/kayak-class.jpg);
@@ -749,11 +772,6 @@ a[target]:after {
 
 .webp .hero-sailing-camp {
   background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/sailing-camp.webp);
-}
-
-.no-js .hero-staff,
-.no-webp .hero-staff {
-  background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/staff.jpg);
 }
 
 .no-js .hero-staff,
@@ -803,7 +821,6 @@ a[target]:after {
   margin-top: 1em;
   padding: 0 0.5em;
   text-align: center;
-  width: 100%;
 }
 
 .image-tiles > li figure {
@@ -815,19 +832,13 @@ a[target]:after {
   width: 100%;
 }
 
-.image-tiles > li figcaption {
-  background-color: #231f20;
-  color: #ffffff;
-  padding: 0.5em 1em;
-}
-
 .image-tiles > li h3 {
   color: #ffffff !important;
-  font-size: 1em !important;
+  font-size: 0.75em !important;
 }
 
 .image-tiles > li p {
-  font-size: 0.75em !important;
+  font-size: 0.5em !important;
   line-height: 1.5em;
 }
 
@@ -842,15 +853,49 @@ a[target]:after {
   color: #ffffff;
 }
 
+.image-tiles > li figcaption,
 .image-tiles > li > a figcaption {
   background-color: #231f20;
+  color: #ffffff;
   font-weight: 400;
-  padding: 0.5em 1em;
+  padding: 0.5em;
 }
 
 .image-tiles > li a:hover figcaption,
 .image-tiles > li a:focus figcaption {
   background-color:#2087c8;
+}
+
+.image-tiles > li {
+  width: 100%;
+}
+
+.image-tiles.condensed > li {
+  width: 50%;
+}
+
+.partners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 !important;
+}
+
+.partners > li {
+  background: gray;
+  display: block;
+  list-style: none;
+  margin: 0 1rem 1rem 0;
+}
+
+.partners > li > a > img {
+  height: 4rem;
+}
+
+.partners > li > a[target]:after {
+  background: none !important;
+  content: none !important;
+  display: none !important;
 }
 
 .responsive-embed {
@@ -1042,6 +1087,15 @@ a[target]:after {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/beginner-kayak-camp.webp);
   }
 
+  .no-js .hero-board,
+  .no-webp .hero-board {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/board.jpg);
+  }
+
+  .webp .hero-board {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/board.webp);
+  }
+
   .no-js .hero-contact,
   .no-webp .hero-contact {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/contact.jpg);
@@ -1096,6 +1150,15 @@ a[target]:after {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/jobs.webp);
   }
 
+  .no-js .hero-join-board,
+  .no-webp .hero-join-board {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/join-our-board.jpg);
+  }
+
+  .webp .hero-join-board {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/join-our-board.webp);
+  }
+
   .no-js .hero-kayak-class,
   .no-webp .hero-kayak-class {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/kayak-class.jpg);
@@ -1128,12 +1191,8 @@ a[target]:after {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/staff.jpg);
   }
 
-  .no-js .hero-staff,
-  .no-webp .hero-staff {
-    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/staff.jpg);
-  }
-
   .webp .hero-staff {
+    background-position: center right;
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/staff.webp);
   }
 
@@ -1166,6 +1225,10 @@ a[target]:after {
 
   .image-tiles > li {
     width: 50%;
+  }
+
+  .image-tiles.condensed > li {
+    width: 33%;
   }
 }
 
@@ -1281,6 +1344,15 @@ a[target]:after {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/beginner-kayak-camp.webp);
   }
 
+  .no-js .hero-board,
+  .no-webp .hero-board {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/board.jpg);
+  }
+
+  .webp .hero-board {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/board.webp);
+  }
+
   .no-js .hero-contact,
   .no-webp .hero-contact {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/contact.jpg);
@@ -1333,6 +1405,14 @@ a[target]:after {
 
   .webp .hero-jobs {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/jobs.webp);
+  }
+
+  .no-webp .hero-join-board {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/join-our-board.jpg);
+  }
+
+  .webp .hero-join-board {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/join-our-board.webp);
   }
 
   .no-js .hero-kayak-class,
@@ -1404,7 +1484,15 @@ a[target]:after {
   }
 
   .image-tiles.condensed > li {
-    width: 33%;
+    width: 20%;
+  }
+
+  .partners > li {
+    margin: 0 2rem 2rem 0;
+  }
+  
+  .partners > li > a > img {
+    height: 6rem;
   }
 }
 
@@ -1482,6 +1570,15 @@ a[target]:after {
   .webp .hero-beginner-kayak-camp {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/beginner-kayak-camp.webp);
   }
+  
+  .no-js .hero-board,
+  .no-webp .hero-board {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/board.jpg);
+  }
+
+  .webp .hero-board {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/board.webp);
+  }
 
   .no-js .hero-contact,
   .no-webp .hero-contact {
@@ -1535,6 +1632,14 @@ a[target]:after {
 
   .webp .hero-jobs {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/jobs.webp);
+  }
+
+  .no-webp .hero-join-board {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/join-our-board.jpg);
+  }
+
+  .webp .hero-join-board {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/join-our-board.webp);
   }
 
   .no-js .hero-kayak-class,
@@ -1605,8 +1710,15 @@ a[target]:after {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/youth-camps.webp);
   }
 
-  .image-tiles > li,
-  .image-tiles.condensed > li {
+  .image-tiles > li {
     width: 25%;
+  }
+  
+  .image-tiles.condensed > li {
+    width: 20%;
+  }
+  
+  .partners > li > a > img {
+    height: 8rem;
   }
 }
