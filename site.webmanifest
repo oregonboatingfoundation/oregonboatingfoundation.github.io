@@ -1,21 +1,37 @@
 {
-	"name": "Oregon Boating Foundation",
-	"short_name": "OBF",
-	"start_url": ".",
+	"background_color": "#ffffff",
+	"description": "The Oregon Boating Foundation is a nonprofit organization whose mission is to get you out on the water safely.",
+	"display": "standalone",
 	"icons": [
 		{
-			"src": "/android-chrome-192x192.png",
+			"src": "/images/assets/icon-192.png",
 			"sizes": "192x192",
-			"type": "image/png"
+			"type": "image/png",
+			"purpose": "any"
 		},
 		{
-			"src": "/android-chrome-512x512.png",
+			"src": "/images/assets/maskable-icon-196.png",
+			"sizes": "196x196",
+			"type": "image/png",
+			"purpose": "maskable"
+		},
+		{
+			"src": "/images/assets/icon-256.png",
+			"sizes": "256x256",
+			"type": "image/png",
+			"purpose": "any"
+		},
+		{
+			"src": "/images/assets/icon-512.png",
 			"sizes": "512x512",
-			"type": "image/png"
+			"type": "image/png",
+			"purpose": "any"
 		}
 	],
-	"theme_color": "#ffffff",
-	"background_color": "#ffffff",
-	"display": "standalone",
-	"description": "The Oregon Boating Foundation is a nonprofit organization whose mission is to get you out on the water safely."
+	"name": "Oregon Boating Foundation",
+	"prefer_related_applications": false,
+	"scope": "/",
+	"short_name": "OBF",
+	"start_url": "/?source=pwa",
+	"theme_color": "#ffffff"
 }
