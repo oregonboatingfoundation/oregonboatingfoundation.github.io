@@ -6,7 +6,7 @@ function setup() {
   positionCTAButton();
   setupButtonObserver();
   setupCollapsibles();
-  //setupCookieNotice();
+  setupCookieNotice();
   setupCurrentYear();
   if (isMobile()) { setupMobileNav(); }
   setupResizeObserver();
@@ -138,9 +138,9 @@ function setupCookieNotice() {
     cookieNotice.hidden = false;
     var cookieBtn = document.querySelector('#cookie-btn');
     cookieBtn.addEventListener('click', function() {
-      var cookieData = "domain=oregonboatingfoundation.org";
-      cookieData += ",acceptCookies=true";
-      cookieData += ",expires=Fri, 31 Dec 9999 23:59:59 GMT";
+      var cookieData = "domain=oregonboatingfoundation.org;";
+      cookieData += "acceptCookies=true;";
+      cookieData += "expires=Fri, 31 Dec 9999 23:59:59 GMT;";
       document.cookie = cookieData;
       cookieNotice.hidden = true;
     });
