@@ -173,6 +173,7 @@ button {
 #header #site-menu > li > button  {
   background: transparent;
   border: none;
+  color: #231F20;
   cursor: pointer;
   display: flex;
   font-size: 24px;
