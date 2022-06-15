@@ -1045,6 +1045,10 @@ button {
     margin-left: 1.5em;
   }
 
+  #newsletter-form .form-group:last-child {
+    text-align: center;
+  }
+
   #cookies {
     padding: 1.5em;
     top: 97px;
@@ -1364,8 +1368,8 @@ button {
     font-size: 1.5em;
   }
 
-  #newsletter-form .form-group:last-child {
-    text-align: center;
+  #newsletter-form .form-group label {
+    text-align: left;
   }
 
   .aside ul {
