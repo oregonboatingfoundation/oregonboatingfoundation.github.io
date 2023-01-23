@@ -672,6 +672,15 @@ button {
   background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/reports.webp);
 }
 
+.no-js .hero-aquatic-camp,
+.no-webp .hero-aquatic-camp {
+  background-image: linear-gradient(0deg, rgba(35, 31, 32, 0.75) 0%, rgba(35, 31, 32, 0) 25%), url(/images/mobile/aquatic-camp.jpg);
+}
+
+.webp .hero-aquatic-camp {
+  background-image: linear-gradient(0deg, rgba(35, 31, 32, 0.75) 0%, rgba(35, 31, 32, 0) 25%), url(/images/mobile/aquatic-camp.webp);
+}
+
 .no-js .hero-beginner-kayak-camp,
 .no-webp .hero-beginner-kayak-camp {
   background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/mobile/beginner-kayak-camp.jpg);
@@ -1119,6 +1128,15 @@ button {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/reports.webp);
   }
 
+  .no-js .hero-aquatic-camp,
+  .no-webp .hero-aquatic-camp {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/aquatic-camp.jpg);
+  }
+
+  .webp .hero-aquatic-camp {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/aquatic-camp.webp);
+  }
+
   .no-js .hero-beginner-kayak-camp,
   .no-webp .hero-beginner-kayak-camp {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/tablet/beginner-kayak-camp.jpg);
@@ -1404,6 +1422,15 @@ button {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/reports.webp);
   }
 
+  .no-js .hero-aquatic-camp,
+  .no-webp .hero-aquatic-camp {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/aquatic-camp.jpg);
+  }
+
+  .webp .hero-aquatic-camp {
+    background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/aquatic-camp.webp);
+  }
+
   .no-js .hero-beginner-kayak-camp,
   .no-webp .hero-beginner-kayak-camp {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/desktop/beginner-kayak-camp.jpg);
@@ -1657,6 +1684,15 @@ button {
   .webp .hero-annual-reports {
     background-image: linear-gradient(0deg, rgba(35,31,32,0.75) 0%, rgba(35,31,32,0) 25%), url(/images/cinema/reports.webp);
   }
+
+    .no-js .hero-aquatic-camp,
+    .no-webp .hero-aquatic-camp {
+      background-image: linear-gradient(0deg, rgba(35, 31, 32, 0.75) 0%, rgba(35, 31, 32, 0) 25%), url(/images/cinema/aquatic-camp.jpg);
+    }
+  
+    .webp .hero-aquatic-camp {
+      background-image: linear-gradient(0deg, rgba(35, 31, 32, 0.75) 0%, rgba(35, 31, 32, 0) 25%), url(/images/cinema/aquatic-camp.webp);
+    }
 
   .no-js .hero-beginner-kayak-camp,
   .no-webp .hero-beginner-kayak-camp {
