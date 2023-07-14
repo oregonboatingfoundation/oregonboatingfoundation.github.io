@@ -453,6 +453,25 @@ button {
   max-width: 60em;
 }
 
+.alert {
+  background-color: #FCF9C8;
+  border-bottom: 1px solid #FFA500;
+  border-top: 1px solid #FFA500;
+  font-size: 1rem;
+  padding: 5px 0;
+  text-align: center;
+}
+
+.alert a {
+  color: #231F20;
+  text-decoration-color: #231F20;
+}
+
+.alert a:hover {
+  color: #FFA500;
+  text-decoration-color: #FFA500;
+}
+
 .aside {
   background: #f2f1ee; 
   border-top: 1px solid #C0B8A9;
