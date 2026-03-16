@@ -3,6 +3,7 @@ var mobileListeners = false;
 function setup() {
   addConsoleWarning();
   detectWebpSupport();
+  displaySuspendedModal();
   positionCTAButton();
   setupButtonObserver();
   setupCollapsibles();
@@ -10,6 +11,7 @@ function setup() {
   setupCurrentYear();
   if (isMobile()) { setupMobileNav(); }
   setupResizeObserver();
+  setupSuspensionNotice();
 }
 
 function addConsoleWarning() {
@@ -31,6 +33,10 @@ function detectWebpSupport() {
     }
   };
   img.src = webpData;
+}
+
+function displaySuspendedModal() {
+  // TODO: Add a dismissable modal outlining that we are suspended
 }
 
 function handleMenuButtonClick() {
@@ -172,6 +178,14 @@ function setupResizeObserver() {
     } else {
       if (mobileListeners) { removeMobileNavListeners(); }
     }
+  });
+}
+
+function setupSuspensionNotice() {
+  var modal = document.querySelector('#suspendedModal');
+  var modalBtn = document.querySelector('#modal-btn');
+  modalBtn.addEventListener('click', function() {
+    modal.hidden = true;
   });
 }
 
