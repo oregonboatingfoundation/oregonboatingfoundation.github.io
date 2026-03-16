@@ -1146,6 +1146,10 @@ button {
     padding-right: 1.5em;
   }
 
+  #suspendedModal>div {
+    max-width: 65ch;
+  }
+
   .aside {
     padding: 1.5em;
   }
